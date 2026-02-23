@@ -9,6 +9,43 @@
  */
 {
   "sections": {
+    "image_banner_3bCKFx": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_xRATnF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pure cocoa magic from the heart of the jungle",
+            "heading_size": "h1"
+          }
+        },
+        "text_X3mefg": {
+          "type": "text",
+          "settings": {
+            "text": "Real chocolate from the heart of the Costa Rican jungle, crafted in Ukraine, envisioned and built in Miami, Florida — no additives, just pure cacao, sunshine, and a touch of Pura Vida.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xRATnF",
+        "text_X3mefg"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/31.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "image_with_text_3PaXKQ": {
       "type": "image-with-text",
       "blocks": {
@@ -45,14 +82,14 @@
         "image": "shopify://shop_images/31.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "zoom-in",
+        "layout": "text_first",
+        "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "background-1",
-        "color_scheme": "background-1",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
         "padding_top": 32,
         "padding_bottom": 32
       }
@@ -340,6 +377,7 @@
     }
   },
   "order": [
+    "image_banner_3bCKFx",
     "image_with_text_3PaXKQ",
     "featured_collection",
     "rich_text_qKETAQ",

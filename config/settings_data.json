@@ -12,11 +12,11 @@
     "logo": "shopify://shop_images/myzo_chocolate_logo.png",
     "logo_width": 170,
     "favicon": "shopify://shop_images/mstile-70x70.png",
-    "type_header_font": "harmonia_sans_n4",
+    "type_header_font": "young_serif_n4",
     "heading_scale": 100,
-    "type_body_font": "harmonia_sans_n4",
+    "type_body_font": "outfit_n4",
     "body_scale": 100,
-    "page_width": 1600,
+    "page_width": 1440,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 32,
     "spacing_grid_vertical": 4,
@@ -123,10 +123,11 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
+    "cart_color_scheme": "background-2",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -228,22 +229,22 @@
       },
       "inverse": {
         "settings": {
-          "background": "#ffc703",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#383838",
-          "button": "#383838",
+          "text": "#0a0f17",
+          "button": "#0a0f17",
           "button_label": "#ffc703",
-          "secondary_button_label": "#383838",
+          "secondary_button_label": "#0a0f17",
           "shadow": "#121212"
         }
       },
       "accent-1": {
         "settings": {
-          "background": "#303030",
+          "background": "#f9f9f7",
           "background_gradient": "",
-          "text": "#ffc703",
-          "button": "#ffc703",
-          "button_label": "#121212",
+          "text": "#0a0f17",
+          "button": "#0a0f17",
+          "button_label": "#ffffff",
           "secondary_button_label": "#ffc703",
           "shadow": "#121212"
         }
