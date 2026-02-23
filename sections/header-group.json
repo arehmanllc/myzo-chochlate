@@ -34,12 +34,20 @@
             "text": "FREE SHIPPING ON ORDERS OVER $50",
             "link": ""
           }
+        },
+        "announcement_aDeaei": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement_KU66py",
         "announcement_Ferdb7",
-        "announcement_dWX9GR"
+        "announcement_dWX9GR",
+        "announcement_aDeaei"
       ],
       "settings": {
         "auto_rotate": true,
@@ -47,23 +55,23 @@
         "color_scheme": "background-2",
         "show_line_separator": true,
         "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "enable_country_selector": true,
+        "enable_language_selector": true
       }
     },
     "header": {
       "type": "header",
       "custom_css": [],
       "settings": {
-        "logo_position": "middle-center",
+        "logo_position": "middle-left",
         "mobile_logo_position": "center",
         "menu": "main-menu",
-        "menu_type_desktop": "drawer",
+        "menu_type_desktop": "dropdown",
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "menu_color_scheme": "background-2",
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": false,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
