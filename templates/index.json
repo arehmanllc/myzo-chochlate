@@ -1,0 +1,352 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_3PaXKQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dRJyMC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pure cocoa magic from the heart of the jungle",
+            "heading_size": "h2"
+          }
+        },
+        "text_FbMQcB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Real chocolate from the heart of the Costa Rican jungle, crafted in Ukraine,  envisioned and built in Miami, Florida — no additives, just pure cacao, sunshine, and a touch of <em>Pura Vida</em>.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_QUXaje": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dRJyMC",
+        "text_FbMQcB",
+        "button_QUXaje"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/31.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "background-1",
+        "color_scheme": "background-1",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "all",
+        "products_to_show": 11,
+        "title": "Chocolate Bars",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_qKETAQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kjMaBt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Myzo Chocolate is pure life — just like they say in Costa Rica, <em>Pura Vida</em>.",
+            "heading_size": "h2"
+          }
+        },
+        "text_mY7Bik": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cacao, the heart of dark chocolate, is treasured not only for its rich flavor but for its incredible cognitive, emotional and physical benefits (<a href=\"/pages/benefits-of-dark-chocolate\" target=\"_blank\" title=\"Unlocking the Power of Cacao: The Benefits of Dark Chocolate\">Discover the power of cacao</a>). Our chocolate is all about living a pure and flawless life. It’s about cacao beans from the Matina River Valley, the Talamanca mountain range, and the Caribbean coast. It’s about the love we found on this land — a love we pour into every bar. Organic, always.</p>"
+          }
+        },
+        "button_Wxh96c": {
+          "type": "button",
+          "settings": {
+            "button_label": "Benefits of Chocolate",
+            "button_link": "shopify://pages/benefits-of-dark-chocolate",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kjMaBt",
+        "text_mY7Bik",
+        "button_Wxh96c"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_kbw7hE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_f8ya4H": {
+          "type": "heading",
+          "settings": {
+            "heading": "From Sacred Beans to Delight: The Story Behind Every Myzo Bar",
+            "heading_size": "h2"
+          }
+        },
+        "text_CWxjhp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Myzo Chocolate is crafted from rare Criollo and Trinitario cacao, sourced directly from Costa Rican farmers in the lush Matina Valley — no additives, no middlemen. Every bar is pure, honest, and infused with the spirit of <em>Pura Vida</em>.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xe4dfd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_f8ya4H",
+        "text_CWxjhp",
+        "button_xe4dfd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_8955.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "background-1",
+        "color_scheme": "background-1",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_aPThNG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LjA9qz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Are",
+            "heading_size": "h1"
+          }
+        },
+        "text_3Fp8ia": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We’re Myzo Chocolate </strong>— a family-owned bean-to-bar chocolate company founded by a veteran’s family. We make our chocolate with rare Criollo and Trinitario cacao beans sourced directly from Costa Rican farmers. No middlemen—just honest partnerships. Our chocolate is crafted with love in Ukraine. We create jobs in Ukraine, empower local communities and share our craft with the world.</p><p>✨ <em>Taste the difference that transparency makes.</em></p>"
+          }
+        },
+        "button_NM4dYf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Our Chocolate",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LjA9qz",
+        "text_3Fp8ia",
+        "button_NM4dYf"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1751222198eb266cdb": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_b9g8E8": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Follow us on Instagram",
+            "title_color": "",
+            "title_size_v2": 20,
+            "alignment": "left",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "left",
+            "link_color": "#383838",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_b9g8E8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1761795488d7639f91": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_tKpYGT": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "all",
+            "max_reviews": 20,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "icon",
+            "card_height": "compact",
+            "text_size": "small",
+            "stars_size": "small",
+            "arrows_position": "bottom",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "quote_marks_style": "serif",
+            "card_color": "#f9f9f9",
+            "stars_and_quote_marks_color": "#ffc703",
+            "text_color": "#000000",
+            "arrows_color": "#000000",
+            "show_border": false,
+            "border_color": "#108474",
+            "show_drop_shadow": false,
+            "transition_speed": 5,
+            "header_text": "Customers are saying",
+            "show_average_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_tKpYGT"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_AeCeAG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qWzGnX": {
+          "type": "heading",
+          "settings": {
+            "heading": "From Jungle to Joy: How Our Chocolate Gives Pura Vida in Every Bite",
+            "heading_size": "h2"
+          }
+        },
+        "text_kNaVbD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Myzo, we make chocolate the way it was meant to be — from rare cacao beans grown under the Costa Rican sun, with no shortcuts and no middlemen. It's a tropical story with Ukrainian roots, where every bar brings you closer to nature, to joy, and to the taste of <em>Pura Vida.</em></p>",
+            "text_style": "body"
+          }
+        },
+        "button_Ltwy6V": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qWzGnX",
+        "text_kNaVbD",
+        "button_Ltwy6V"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/IMG_0796.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "inverse",
+        "color_scheme": "inverse",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "image_with_text_3PaXKQ",
+    "featured_collection",
+    "rich_text_qKETAQ",
+    "image_with_text_kbw7hE",
+    "rich_text_aPThNG",
+    "1751222198eb266cdb",
+    "1761795488d7639f91",
+    "image_with_text_AeCeAG"
+  ]
+}

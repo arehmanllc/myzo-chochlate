@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_6gJcQr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B8qAhQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Are",
+            "heading_size": "h0"
+          }
+        },
+        "text_BPEWba": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We’re Myzo Chocolate</strong>—a family-owned bean-to-bar chocolate company founded by a veteran’s family. We make our chocolate with rare Criollo and Trinitario cacao beans sourced directly from Costa Rican farmers. No middlemen—just honest partnerships. Our chocolate is crafted with love in Ukraine. We strive to create jobs in Ukraine, have a positive socio-economic impact, and share our craft with the world.</p><p>✨ <em>Taste the difference that transparency makes.</em></p>"
+          }
+        },
+        "button_CWaJWw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Our Chocolate",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_B8qAhQ",
+        "text_BPEWba",
+        "button_CWaJWw"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "multirow_C6h4qa": {
+      "type": "multirow",
+      "blocks": {
+        "row_HkVy8a": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "The Myzo Story",
+            "text": "<p>In 2020, a spontaneous trip to Costa Rica changed everything. We discovered a culture rich in biodiversity, tradition, and joy. Costa Ricans live by the phrase <em>Pura Vida</em>—“pure life.” We took that spirit to heart.</p><p>We’re bringing the vibrant ecosystems of Central America to life—in every bite. From the tropical cacao groves of the Matina River Valley to your kitchen, our chocolate carries the taste of place.</p><p>🍫 <em>Every piece is a passport to somewhere wild and wonderful.</em></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_BDyUF7": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "What Makes Our Chocolate Special?",
+            "text": "<p>In Costa Rica, cacao is sacred. For generations, the indigenous peoples—the Maya and the Aztecs—cultivated gourmet varieties like Criollo and Trinitario. These beans produce chocolate that’s smooth, fruity, and never bitter.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_BqqEn9": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Sourcing Direct from Farmers",
+            "text": "<p>We work directly with farmers in the lush Matina valley, nestled between the Talamanca Mountains and the Caribbean Sea. Our ingredients are organic, our process honest, our intentions pure.</p><p>🌸 <em>You’ll taste the jungle, the history, and the heart with every bite.</em></p>",
+            "button_label": "Try A Bar Today",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "row_HkVy8a",
+        "row_BDyUF7",
+        "row_BqqEn9"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_6gJcQr",
+    "main",
+    "multirow_C6h4qa"
+  ]
+}

@@ -1,0 +1,63 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "1768931296d7762ef6": {
+      "type": "apps",
+      "blocks": {
+        "faire_sell_wholesale_shopify_widget_faWWHk": {
+          "type": "shopify://apps/faire-sell-wholesale/blocks/shopify_widget/7bd83f89-a129-4775-9b2a-1f2d88e8f32c",
+          "settings": {
+            "show_collections": true,
+            "show_reviews": true,
+            "appearance": "custom",
+            "background_color": "#FFFFFF",
+            "corner_radius": 0,
+            "heading_font": "merriweather_n4",
+            "heading_color": "#333333",
+            "heading_text_case": "none",
+            "secondary_font": "sans_serif_n4",
+            "secondary_font_color": "#333333",
+            "button_background_color": "#383838",
+            "button_font": "sans_serif_n4",
+            "button_font_size_scale": 100,
+            "button_text_color": "#ffc703",
+            "button_text_case": "none",
+            "button_corner_radius": 0,
+            "button_border_color": "#FFFFFF",
+            "button_border_thickness": 0,
+            "banner_heading_font": "merriweather_n4",
+            "banner_secondary_font": "sans_serif_n4",
+            "banner_background_color": "#FBF8F6",
+            "review_text_and_star_color": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "faire_sell_wholesale_shopify_widget_faWWHk"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1768931296d7762ef6"
+  ]
+}

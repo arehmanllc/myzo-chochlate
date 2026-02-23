@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_hjerkx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "text_Hbc4Cy": {
+          "type": "text",
+          "settings": {
+            "heading": "New flavours coming soon!",
+            "subtext": "<p><strong>Our Mission</strong><br/>It’s not just about bean-to-bar chocolate. We aim to support the social and economic growth of local communities. To be an eco-conscious brand. To nurture in our customers a love for nature, which gives us so many precious gifts—especially chocolate. Part of our profits go to environmental and veterans’ organizations that uphold integrity and help build a healthy society.</p>"
+          }
+        },
+        "text_mMNtEb": {
+          "type": "text",
+          "settings": {
+            "heading": "Contact Info",
+            "subtext": "<p><strong>Support Phone #: </strong>+1 (929) 361-0404</p><p><strong>Support Email:</strong> team@myzochocolate.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_hjerkx",
+        "text_Hbc4Cy",
+        "text_mMNtEb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "inverse",
+        "newsletter_enable": true,
+        "newsletter_heading": "Mi corazón, we have plenty of great news coming. Are you with us?",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

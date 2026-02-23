@@ -1,0 +1,139 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_6gJcQr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B8qAhQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlocking the Power of Cacao: The Benefits of Dark Chocolate",
+            "heading_size": "h2"
+          }
+        },
+        "text_BPEWba": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cacao, the key ingredient in dark chocolate, has been cherished for centuries for its rich flavor and numerous benefits. Whether you're enjoying a moment of indulgence or seeking a natural boost, dark chocolate offers more than just taste—it provides cognitive, emotional, and physical advantages that can support well-being in a variety of ways. Let’s explore the many benefits of cacao and why incorporating it into your life may be a step towards a healthier, more balanced you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B8qAhQ",
+        "text_BPEWba"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_C6h4qa": {
+      "type": "multirow",
+      "blocks": {
+        "row_HkVy8a": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/32.jpg",
+            "caption": "Cognitive Boost:",
+            "heading": "Support for Mental Clarity",
+            "text": "<p>Cacao is packed with compounds called<br/>flavonoids, which have been found to support cognitive function. These flavonoids improve blood flow to the brain, potentially enhancing memory, attention, and overall mental clarity. Research has suggested that regular consumption of cacao can help protect against cognitive decline and improve brain performance. For those looking to maintain sharpness and focus, adding a little dark chocolate to your diet could be a natural way to support your mental well-being.</p>",
+            "button_label": "Buy Chocolate",
+            "button_link": "shopify://collections/all"
+          }
+        },
+        "row_BDyUF7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/36.jpg",
+            "caption": "Emotional Benefits:",
+            "heading": "A Natural Mood Enhancer",
+            "text": "<p>Cacao is often linked with feelings of happiness, and there’s a reason for that. The theobromine in cacao offers a gentle mood boost, stimulating the release of endorphins, which are the body's \"feel-good\" chemicals. Additionally, cacao contains serotonin precursors, which may help stabilize mood and offer a sense of calm. Whether you’re facing a stressful day or just need a lift, dark chocolate can be a comforting and emotionally supportive snack.</p>",
+            "button_label": "Buy Chocolate",
+            "button_link": "shopify://collections/all"
+          }
+        },
+        "row_BqqEn9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/38.jpg",
+            "caption": "Nutrient-Rich:",
+            "heading": "A Source of Essential Minerals",
+            "text": "<p>Cacao is more than a treat—it’s also a source of valuable nutrients. Dark chocolate, especially when it’s minimally processed, contains significant amounts of magnesium, iron, and fiber. Magnesium, in particular, is important for muscle relaxation and can help manage stress levels. Cacao is also high in antioxidants, which protect cells from damage caused by free radicals. By incorporating dark chocolate into your routine, you can enjoy these health benefits while savoring its deep, rich flavor.</p>",
+            "button_label": "Buy Chocolate",
+            "button_link": "shopify://collections/all"
+          }
+        },
+        "row_XFnzT8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/myzo-hazelnut-dark-chocolate-70-single-origin-cacao-with-whole-nuts-1702533.jpg",
+            "caption": "A Healthy Dessert",
+            "heading": "Positive Metabolic Impact",
+            "text": "<p>Dark chocolate made from pure cacao has also been associated with positive metabolic effects. Studies have shown that it may help improve insulin sensitivity, which can be beneficial for maintaining balanced blood sugar levels. Additionally, dark chocolate has been linked to supporting heart health by positively affecting cholesterol levels. Including moderate amounts of dark chocolate in your diet can contribute to these metabolic benefits without the need for highly processed or sugary alternatives.</p>",
+            "button_label": "Buy Chocolate",
+            "button_link": "shopify://collections/all"
+          }
+        },
+        "row_fCkKiN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/40.jpg",
+            "caption": "Thinking About Our Farmers",
+            "heading": "Why Choose Ethically Sourced Chocolate?",
+            "text": "<p>Beyond its health benefits, the way cacao is<br/>grown and sourced can also make a difference. Many small farmers in regions like Costa Rica maintain sustainable and environmentally friendly practices that respect both the land and the people who cultivate it. By choosing ethically sourced chocolate, you’re not only benefiting your health but also supporting communities and practices that prioritize sustainability.</p>",
+            "button_label": "Buy Chocolate",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "row_HkVy8a",
+        "row_BDyUF7",
+        "row_BqqEn9",
+        "row_XFnzT8",
+        "row_fCkKiN"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "rich_text_6gJcQr",
+    "multirow_C6h4qa",
+    "main"
+  ]
+}
