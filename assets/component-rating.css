@@ -13,8 +13,8 @@
 }
 
 .card-wrapper .rating-star {
-  --letter-spacing: 0.7;
-  --font-size: 1.4;
+  --letter-spacing: 0;
+  --font-size:2 ;
 }
 
 .rating-star {
@@ -37,7 +37,7 @@
   content: '★★★★★';
   background: linear-gradient(
     90deg,
-    var(--color-rating-star) var(--percent),
+    #FFC703 var(--percent),
     rgba(var(--color-foreground), 0.15) var(--percent)
   );
   -webkit-background-clip: text;
