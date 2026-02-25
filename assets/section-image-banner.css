@@ -5,11 +5,20 @@
   z-index: auto;
   isolation: isolate;
 }
-
+.banner .banner__subheading{
+  font-size: 16px;
+  letter-spacing: 100%;
+  text-transform: uppercase;
+}
 .banner__box {
   text-align: center;
 }
-
+.banner .button--primary{
+  gap: 10px;
+}
+.banner .button--primary:hover svg path{
+  stroke: #0A0F17;
+}
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .banner__box.gradient {
   transform: perspective(0);
@@ -37,7 +46,7 @@
   .banner--content-align-left.banner--desktop-transparent .banner__box,
   .banner--content-align-right.banner--desktop-transparent .banner__box,
   .banner--medium.banner--desktop-transparent .banner__box {
-    max-width: 68rem;
+    max-width: 65rem;
   }
 }
 
@@ -388,7 +397,7 @@
   content: '';
   position: absolute;
   top: 0;
-  background: #000000;
+  background: #F8F4ED;
   opacity: 0;
   z-index: 1;
   width: 100%;
@@ -417,6 +426,12 @@
   .banner--stacked .banner__box {
     width: 100%;
   }
+  .banner__buttons{
+    width: 100%;
+  }
+  .banner .button--primary{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -435,6 +450,8 @@
 
 .banner__heading {
   margin-bottom: 0;
+  position: relative;
+  letter-spacing: -0.5%;
 }
 
 .banner__box .banner__heading + * {

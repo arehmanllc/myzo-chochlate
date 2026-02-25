@@ -2278,6 +2278,9 @@ input[type='checkbox'] {
   letter-spacing: 0rem;
   font-family: var(--font-body-family);
   min-height: 3.8rem;
+  display: flex;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .announcement-bar-slider--fade-in-next .announcement-bar__message,
@@ -2834,7 +2837,7 @@ details[open] > .header__submenu {
 
 .header__menu-item:hover {
   color: rgb(var(--color-foreground));
-  color: #0A0F17;
+  /* color: #0A0F17; */
 }
 
 .header__menu-item span {
@@ -2843,7 +2846,6 @@ details[open] > .header__submenu {
 
 .header__menu-item:hover span {
   font-weight: 600;
-  text-decoration: underline;
   text-underline-offset: 0.8rem;
   text-decoration-thickness: 0.2rem;
 }
@@ -2864,7 +2866,7 @@ details[open] > .header__menu-item .icon-caret {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
   text-decoration: underline;
-  text-underline-offset: 0.8rem;
+  text-underline-offset: 1rem;
   font-weight: 600;
   color: #0A0F17;
   text-decoration-thickness: .2rem;
