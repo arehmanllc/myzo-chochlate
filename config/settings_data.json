@@ -16,7 +16,7 @@
     "heading_scale": 100,
     "type_body_font": "outfit_n4",
     "body_scale": 100,
-    "page_width": 1600,
+    "page_width": 1440,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 32,
     "spacing_grid_vertical": 4,
@@ -250,13 +250,13 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#303030",
+          "background": "#efdfbd",
           "background_gradient": "",
-          "text": "#ffc703",
-          "button": "#ffc703",
-          "button_label": "#303030",
-          "secondary_button_label": "#ffc703",
-          "shadow": "#121212"
+          "text": "#0a0f17",
+          "button": "#0a0f17",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#0a0f17",
+          "shadow": "#0a0f17"
         }
       },
       "accent-3": {
