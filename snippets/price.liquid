@@ -374,7 +374,12 @@
       {%- endif -%}
     </div>
     <div class="bulk-qty-btn-container">
-        <button class="button button--primary bulk-btn">Buy Now {%- render 'icon-caret-rt' -%}</button>
+        <button class="button button--primary bulk-btn">
+          <span>Buy Now</span>
+          {%- render 'icon-caret-rt' -%}
+          {%- render 'loading-spinner' -%}
+        </button>
+        <div class="bulk-qty-error hidden"></div>
     </div>
     {%- if show_badges -%}
       <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">

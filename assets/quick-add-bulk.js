@@ -4,17 +4,33 @@ if (!customElements.get('quick-add-bulk')) {
     class QuickAddBulk extends BulkAdd {
       constructor() {
         super();
-        this.quantity = this.querySelector('quantity-input');
+        this.bulkBtn = this.closest('.price')?.querySelector('.bulk-btn');
+        this.errorMsg = this.closest('.price')?.querySelector('.bulk-qty-error');
 
-        const debouncedOnChange = debounce((event) => {
-          if (parseInt(event.target.value) === 0) {
-            this.startQueue(event.target.dataset.index, parseInt(event.target.value));
-          } else {
-            this.validateQuantity(event);
-          }
-        }, ON_CHANGE_DEBOUNCE_TIMER);
+        if (this.bulkBtn) {
+          this.bulkBtn.addEventListener('click', (event) => {
+            event.preventDefault();
+            const value = parseInt(this.input.value);
+            const index = this.input.dataset.index;
 
-        this.addEventListener('change', debouncedOnChange.bind(this));
+            if (isNaN(value) || value <= 0) {
+              if (this.errorMsg) {
+                this.errorMsg.textContent = 'Please select a quantity more than zero';
+                this.errorMsg.classList.remove('hidden');
+              }
+              return;
+            }
+
+            if (this.errorMsg) this.errorMsg.classList.add('hidden');
+
+            this.validateQuantity({ target: this.input });
+          });
+        }
+
+        this.input?.addEventListener('input', () => {
+          if (this.errorMsg) this.errorMsg.classList.add('hidden');
+        });
+
         this.listenForActiveInput();
         this.listenForKeydown();
         this.lastActiveInputId = null;
@@ -109,6 +125,17 @@ if (!customElements.get('quick-add-bulk')) {
         const pageNumber = decodeURIComponent(pageParams.get('page') || '');
 
         return `${window.location.pathname}${pageNumber ? `?page=${pageNumber}` : ''}`;
+      }
+
+      setRequestStarted(requestStarted) {
+        this._requestStarted = requestStarted;
+        if (requestStarted) {
+          this.bulkBtn?.querySelector('.loading__spinner')?.classList.remove('hidden');
+          this.bulkBtn?.classList.add('loading');
+        } else {
+          this.bulkBtn?.querySelector('.loading__spinner')?.classList.add('hidden');
+          this.bulkBtn?.classList.remove('loading');
+        }
       }
 
       updateMultipleQty(items) {
