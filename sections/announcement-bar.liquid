@@ -40,6 +40,9 @@
             >
           {%- endif -%}
           <p class="announcement-bar__message h5">
+            {% if section.blocks.first.settings.announcment_bar_icon != blank %}
+            <img src="{{ section.blocks.first.settings.announcment_bar_icon | img_url: '20x' }}" alt="{{ section.blocks.first.settings.announcment_bar_icon.alt }}" class="announcement-bar__icon">
+          {% endif %}
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
               {{- 'icon-arrow.svg' | inline_asset_content -}}
@@ -100,6 +103,9 @@
                       >
                     {%- endif -%}
                     <p class="announcement-bar__message h5">
+                      {% if block.settings.announcment_bar_icon != blank %}
+                        <img src="{{ block.settings.announcment_bar_icon | img_url: '20x' }}" alt="{{ block.settings.announcment_bar_icon.alt }}" class="announcement-bar__icon">
+                      {% endif %}
                       <span>{{ block.settings.text | escape }}</span>
                       {%- if block.settings.link != blank -%}
                         {{- 'icon-arrow.svg' | inline_asset_content -}}
@@ -244,7 +250,11 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
-        }
+        },{
+        "type": "image_picker",
+        "id": "announcment_bar_icon",
+        "label": "Icon Image (Optional)"
+      }
       ]
     }
   ],

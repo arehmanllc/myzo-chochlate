@@ -18,7 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "SIGN UP TO NEWSLETTER FOR 10% OFF YOUR FIRST PURCHASE",
-            "link": ""
+            "link": "",
+            "announcment_bar_icon": "shopify://shop_images/Union_1.png"
           }
         },
         "announcement_Ferdb7": {
@@ -34,20 +35,12 @@
             "text": "FREE SHIPPING ON ORDERS OVER $50",
             "link": ""
           }
-        },
-        "announcement_aDeaei": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "announcement_KU66py",
         "announcement_Ferdb7",
-        "announcement_dWX9GR",
-        "announcement_aDeaei"
+        "announcement_dWX9GR"
       ],
       "settings": {
         "auto_rotate": true,
@@ -55,8 +48,8 @@
         "color_scheme": "background-2",
         "show_line_separator": true,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true
+        "enable_country_selector": false,
+        "enable_language_selector": false
       }
     },
     "header": {
@@ -66,10 +59,10 @@
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "menu_color_scheme": "background-2",
         "enable_country_selector": false,
         "enable_language_selector": false,
