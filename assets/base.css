@@ -2454,6 +2454,7 @@ input[type='checkbox'] {
 .header__heading {
   margin: 0;
   line-height: 0;
+  padding-block: 10px;
 }
 
 .header > .header__heading-link {
@@ -2973,7 +2974,12 @@ details-disclosure > details {
   color: rgb(var(--color-badge-foreground));
   word-break: break-word;
 }
-
+.badge.badge--best{
+  background-color: #FFC703;
+  color: #0A0F17;
+  text-transform: uppercase;
+  border-radius: 0;
+}
 .gradient {
   background: rgb(var(--color-background));
   background: var(--gradient-background);
