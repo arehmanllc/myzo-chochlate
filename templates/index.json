@@ -12,11 +12,17 @@
     "image_banner_3bCKFx": {
       "type": "image-banner",
       "blocks": {
+        "sub_heading_i794G4": {
+          "type": "sub-heading",
+          "settings": {
+            "sub_heading": "Taste Pura Vida"
+          }
+        },
         "heading_xRATnF": {
           "type": "heading",
           "settings": {
             "heading": "Pure cocoa magic from the heart of the jungle",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_X3mefg": {
@@ -25,73 +31,39 @@
             "text": "Real chocolate from the heart of the Costa Rican jungle, crafted in Ukraine, envisioned and built in Miami, Florida — no additives, just pure cacao, sunshine, and a touch of Pura Vida.",
             "text_style": "body"
           }
+        },
+        "buttons_eAMjkc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Buy Now",
+            "button_link_1": "shopify://blogs/news/a-chocolate-fiesta-in-lutsk-myzo-craft-revival",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
+        "sub_heading_i794G4",
         "heading_xRATnF",
-        "text_X3mefg"
+        "text_X3mefg",
+        "buttons_eAMjkc"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/31.jpg",
+        "image": "shopify://shop_images/Group_1000005204.png",
+        "arr_img": "shopify://shop_images/Vector_415.png",
         "image_overlay_opacity": 20,
-        "image_height": "medium",
+        "image_height": "adapt",
         "image_behavior": "none",
         "desktop_content_position": "middle-left",
         "desktop_content_alignment": "left",
         "show_text_box": false,
-        "color_scheme": "inverse",
+        "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": true
-      }
-    },
-    "image_with_text_3PaXKQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_dRJyMC": {
-          "type": "heading",
-          "settings": {
-            "heading": "Pure cocoa magic from the heart of the jungle",
-            "heading_size": "h2"
-          }
-        },
-        "text_FbMQcB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Real chocolate from the heart of the Costa Rican jungle, crafted in Ukraine,  envisioned and built in Miami, Florida — no additives, just pure cacao, sunshine, and a touch of <em>Pura Vida</em>.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_QUXaje": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_dRJyMC",
-        "text_FbMQcB",
-        "button_QUXaje"
-      ],
-      "custom_css": [],
-      "settings": {
-        "image": "shopify://shop_images/31.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "accent-1",
-        "color_scheme": "accent-1",
-        "padding_top": 32,
-        "padding_bottom": 32
       }
     },
     "featured_collection": {
@@ -378,7 +350,6 @@
   },
   "order": [
     "image_banner_3bCKFx",
-    "image_with_text_3PaXKQ",
     "featured_collection",
     "rich_text_qKETAQ",
     "image_with_text_kbw7hE",
