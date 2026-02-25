@@ -417,6 +417,7 @@ blockquote {
 .caption-with-letter-spacing--large {
   font-size: 1.4rem;
   letter-spacing: 0.18rem;
+  letter-spacing: 70%;
 }
 
 .caption-large,

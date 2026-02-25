@@ -1,0 +1,75 @@
+.ft-icons__icon {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.ft-icons__icon {
+  width: 4rem;
+  --ratio-percent: 4rem;
+}
+.ft-icons__icon img{object-fit: contain; }
+.ft-icons__content * {
+  margin: 0;
+}
+
+.features-icons__list-item{cursor: pointer;}
+.features-icons__list-item>a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.features-icons .center .ft-icons__icon {
+  margin: 0 auto;
+}
+
+.ft-icons__content>p {
+  margin-top: 0.55rem;
+}
+
+.features-icons .center .ft-icons__content>* {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ft-icons__content>p,
+.ft-icons__content>h2 {
+  max-width: var(--max-width);
+}
+
+.ft-icons__content>h2 {
+  line-height: 42px;
+  margin-bottom: .8rem;
+  letter-spacing: -1.26px;
+  font-size: calc(var(--font-heading-scale) * 2.8rem);
+}
+
+/* SECTION STYLE */
+.features-icons-horizontal .ft-icons__icon{--ratio-percent: 2.4rem; padding: 1.2rem;width: 6rem;height: 6rem;}
+.features-icons-horizontal .ft-icons__icon img,
+.features-icons-horizontal .ft-icons__icon .svg-wrapper{width: 6rem !important;height: 6rem !important;top: 50%;left: 50%;}  
+.features-icons-horizontal .features-icons__list{row-gap: calc(var(--grid-desktop-vertical-spacing));}
+.features-icons-horizontal .features-icons__list-item{display: grid;grid-template-rows: auto 1fr;gap: 10px;align-items: center;}
+
+@media screen and (min-width: 750px) {
+  li.grid__item.features-icons__list-item.relative:hover .ft-icons__icon,
+  .ft-icons__icon:hover,
+  .ft-icons__url:hover+.ft-icons__icon {
+    transform: scale3d(-1.5, 1.5, 1.5) scale(0.66);
+  }
+}
+@media screen and (max-width: 750px) {
+  .ft-icons__content>p {
+    font-size: 1.2rem;
+  }
+
+  .features-icons__list-item {
+    padding-bottom: 1.5rem;
+  }
+
+  .features-icons__list{row-gap: calc(var(--grid-mobile-vertical-spacing) * 2.4);}
+}
+ 

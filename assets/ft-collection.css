@@ -14,7 +14,9 @@
   min-width: 100%;
   padding-inline: 0;
 }
-
+.collection .bulk-btn:hover svg path{
+  stroke: #0A0F17;
+}
 .collection .bulk-qty-btn-container {
   width: 100%;
 }
