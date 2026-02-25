@@ -124,6 +124,14 @@
               </a>
             </h3>
           </div>
+          <div class="tag-badge">
+            {%- for tag in card_product.tags -%}
+              {%- assign tag_handleize = tag | handleize -%}
+              {% if tag_handleize contains 'best' %}
+                <span class="badge badge--best" id="Badge-{{ section_id }}-{{ card_product.id }}">{{ tag }}</span>
+              {% endif %}
+            {%- endfor -%}
+          </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
