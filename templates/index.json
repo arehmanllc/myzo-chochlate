@@ -209,6 +209,82 @@
         "padding_bottom": 24
       }
     },
+    "ugc_videos_jPbQ7T": {
+      "type": "ugc-videos",
+      "blocks": {
+        "ugc_video_RDcwPc": {
+          "type": "ugc-video",
+          "settings": {
+            "video": "shopify://files/videos/IMG_6147.MOV",
+            "enable_video_looping": true,
+            "product": "myzo-6-bar-bean-giftbox"
+          }
+        },
+        "ugc_video_9w7V9p": {
+          "type": "ugc-video",
+          "settings": {
+            "video": "shopify://files/videos/Shout out to Costa Rica.mp4",
+            "enable_video_looping": true,
+            "product": "milk-chocolate"
+          }
+        },
+        "ugc_video_CTamj9": {
+          "type": "ugc-video",
+          "settings": {
+            "video": "shopify://files/videos/@myzochocolate is participating and Fairchild’s Chocolate Festival this year. Come check us out! You can find us at Fairchild’s Sanctuary  There’s plenty of all kinds of activities for the whole family with an abundance.mp4",
+            "enable_video_looping": true,
+            "product": "70-dark-chocolate"
+          }
+        },
+        "ugc_video_ErQfnb": {
+          "type": "ugc-video",
+          "settings": {
+            "video": "shopify://files/videos/One of the things Myzo takes the greatest pride in is working with a single family-owned farm in Costa Rica. This allows us to avoid middlemen, ensure farmers are paid fairly, and trace our cacao from cultivation all th.mp4",
+            "enable_video_looping": true,
+            "product": "hazelnut-chocolate"
+          }
+        },
+        "ugc_video_tVpfdx": {
+          "type": "ugc-video",
+          "settings": {
+            "video": "shopify://files/videos/Amsterdam Cocoa Week   A few days surrounded by farmers, makers, and people who care deeply about cacao — its future, its quality, and the standards behind it.  Moments like this push us to keep raising the bar in craft.mp4",
+            "enable_video_looping": true,
+            "product": "raspberry"
+          }
+        },
+        "ugc_video_ABPYzd": {
+          "type": "ugc-video",
+          "settings": {
+            "video": "shopify://files/videos/@myzochocolate is participating and Fairchild’s Chocolate Festival this year. Come check us out! You can find us at Fairchild’s Sanctuary  There’s plenty of all kinds of activities for the whole family with an abun_fdc1963e-25c2-42fe-882a-d210e9627d1a.mp4",
+            "enable_video_looping": true,
+            "product": "oat-milk"
+          }
+        },
+        "ugc_video_mR3RNX": {
+          "type": "ugc-video",
+          "settings": {
+            "video": "shopify://files/videos/Amsterdam Cocoa Week   A few days surrounded by farmers, makers, and people who care deeply about cacao — its future, its quality, and the standards behind it.  Moments like this push us to keep raising the bar in craft.mp4",
+            "enable_video_looping": true,
+            "product": "hazelnut-chocolate"
+          }
+        }
+      },
+      "block_order": [
+        "ugc_video_RDcwPc",
+        "ugc_video_9w7V9p",
+        "ugc_video_CTamj9",
+        "ugc_video_ErQfnb",
+        "ugc_video_tVpfdx",
+        "ugc_video_ABPYzd",
+        "ugc_video_mR3RNX"
+      ],
+      "name": "UGC-Videos",
+      "settings": {
+        "color_scheme": "scheme-b22624a9-74bc-4e68-9968-ff95617cb1cb",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "features_icons_nycHte": {
       "type": "features-icons",
       "blocks": {
@@ -428,6 +504,7 @@
     "featured_collection",
     "image_with_text_kbw7hE",
     "image_with_text_AeCeAG",
+    "ugc_videos_jPbQ7T",
     "features_icons_nycHte",
     "rich_text_aPThNG",
     "1751222198eb266cdb",
