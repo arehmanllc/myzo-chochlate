@@ -387,7 +387,13 @@
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+.heading-clr{
+  background: #FFC703;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    box-shadow: 1.5px 3px 0px 0px #F0A400B2;
+}
 @media screen and (max-width: 749px) {
   .collapse-padding .image-with-text__grid .image-with-text__content {
     padding-left: 0;

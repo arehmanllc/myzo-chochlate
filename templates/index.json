@@ -111,7 +111,9 @@
           "type": "heading",
           "settings": {
             "heading": "Myzo Chocolate is pure life — just like they say in Costa Rica, Pura Vida.",
-            "heading_size": "h2"
+            "heading_size": "h2",
+            "heading_clr": "",
+            "heading_size_clr": "h1"
           }
         },
         "text_CWxjhp": {
@@ -167,7 +169,9 @@
           "type": "heading",
           "settings": {
             "heading": "The Story Behind Every Myzo Bar",
-            "heading_size": "h2"
+            "heading_size": "h2",
+            "heading_clr": "",
+            "heading_size_clr": "h1"
           }
         },
         "text_kNaVbD": {
@@ -202,7 +206,7 @@
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "section_color_scheme": "background-1",
         "color_scheme": "background-1",
         "padding_top": 24,
@@ -384,45 +388,159 @@
         "padding_bottom_mobile": 36
       }
     },
+    "image_with_text_wzUefa": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_zmeady": {
+          "type": "caption",
+          "settings": {
+            "caption": "From Jungle to Joy",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_dMkGV4": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Our Chocolate Gives Pura Vida in",
+            "heading_size": "h1",
+            "heading_clr": "Every Bite",
+            "heading_size_clr": "h1"
+          }
+        },
+        "text_zTiRxX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Myzo, we make chocolate the way it was meant to be — from rare cacao beans grown under the Costa Rican sun, with no shortcuts and no middlemen. It's a tropical story with Ukrainian roots, where every bar brings you closer to nature, to joy, and to the taste of Pura Vida.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_BGJ8m7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify://pages/myzo-faq",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_zmeady",
+        "heading_dMkGV4",
+        "text_zTiRxX",
+        "button_BGJ8m7"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Group_1000005049.png",
+        "image_bgd": "shopify://shop_images/Group_1000005052.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Ba7XjC": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_aFM3za": {
+          "type": "caption",
+          "settings": {
+            "caption": "Family. Passion. Purpose.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_KhxeB7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the Heart Behind Myzo",
+            "heading_size": "h2",
+            "heading_clr": "",
+            "heading_size_clr": "h1"
+          }
+        },
+        "text_DLMHnp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re Myzo Chocolate—a family-owned bean-to-bar chocolate company founded by a veteran’s family. We make our chocolate from the rare Matina variety of cacao beans (Criollo and Trinitario genome) sourced directly from Costa Rican farmers. No middlemen—just honest partnerships. Our chocolate is crafted with love in Ukraine, where we strive to create jobs, and have a positive socio-economic impact. We are building our brand from Miami, Florida from where we aim to share our craft with the world.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_6FC9LM": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_aFM3za",
+        "heading_KhxeB7",
+        "text_DLMHnp",
+        "button_6FC9LM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Group_1000005110.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-a587dba5-ca83-41a2-b641-487b477a4772",
+        "color_scheme": "scheme-a587dba5-ca83-41a2-b641-487b477a4772",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "rich_text_aPThNG": {
       "type": "rich-text",
       "blocks": {
+        "caption_PM84fm": {
+          "type": "caption",
+          "settings": {
+            "caption": "Join the Journey",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_LjA9qz": {
           "type": "heading",
           "settings": {
-            "heading": "Who We Are",
+            "heading": "Follow us on Instagram",
             "heading_size": "h1"
           }
         },
         "text_3Fp8ia": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>We’re Myzo Chocolate </strong>— a family-owned bean-to-bar chocolate company founded by a veteran’s family. We make our chocolate with rare Criollo and Trinitario cacao beans sourced directly from Costa Rican farmers. No middlemen—just honest partnerships. Our chocolate is crafted with love in Ukraine. We create jobs in Ukraine, empower local communities and share our craft with the world.</p><p>✨ <em>Taste the difference that transparency makes.</em></p>"
-          }
-        },
-        "button_NM4dYf": {
-          "type": "button",
-          "settings": {
-            "button_label": "Explore Our Chocolate",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Step into our world of pure cacao, jungle roots, and Pura Vida moments shared daily.</p>"
           }
         }
       },
       "block_order": [
+        "caption_PM84fm",
         "heading_LjA9qz",
-        "text_3Fp8ia",
-        "button_NM4dYf"
+        "text_3Fp8ia"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-b22624a9-74bc-4e68-9968-ff95617cb1cb",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -434,7 +552,7 @@
         "instafeed_app_block_b9g8E8": {
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "title": "Follow us on Instagram",
+            "title": "",
             "title_color": "",
             "title_size_v2": 20,
             "alignment": "left",
@@ -444,7 +562,7 @@
             "show_instagram_link": true,
             "link_alignment": "left",
             "link_color": "#383838",
-            "background_color": "",
+            "background_color": "#f9f4ea",
             "feed_id": "",
             "html_area": ""
           }
@@ -455,6 +573,66 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "image_with_text_eMy7jJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_AUf8W9": {
+          "type": "caption",
+          "settings": {
+            "caption": "Pure. Honest. Indulgence.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_8WqJWe": {
+          "type": "heading",
+          "settings": {
+            "heading": "6-Bar MYZO Bean-to-Bar Chocolate Gift Box | Single-Origin Craft Chocolate",
+            "heading_size": "h1",
+            "heading_clr": "",
+            "heading_size_clr": "h1"
+          }
+        },
+        "text_Mn4Hgf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The MYZO 6-Bar Gift Box brings together all six of our signature bean-to-bar chocolate bars—crafted in small batches, made with single-origin cacao from Costa Rica, and designed for people who truly love chocolate.<br/>Each bar is made from ethically sourced cacao beans purchased directly from a family-owned farm, then carefully transformed into chocolate in Ukraine—without emulsifiers, soy, palm oil, or artificial ingredients. Just cacao, real ingredients, and time.<br/>Inside the box, you’ll discover six distinct MYZO flavors, each with its own personality—from deep, fruity dark chocolate to creamy milk and bold botanical or nut pairings. It’s a complete tasting journey through MYZO’s collection.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kTdHby": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify://pages/myzo-faq",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_AUf8W9",
+        "heading_8WqJWe",
+        "text_Mn4Hgf",
+        "button_kTdHby"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Group_1000005126.png",
+        "image_bgd": "shopify://shop_images/Group_1000005052.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1761795488d7639f91": {
@@ -494,8 +672,53 @@
       "block_order": [
         "judge_me_reviews_testimonials_carousel_tKpYGT"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
+      }
+    },
+    "newsletter_pqdXdk": {
+      "type": "newsletter",
+      "blocks": {
+        "caption_JepjcP": {
+          "type": "caption",
+          "settings": {
+            "caption": "Stay Sweet",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_WziXUg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Signup for Newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_NiFLEr": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to discover new releases, exclusive offers, and stories from the jungle.</p>"
+          }
+        },
+        "email_form_xwqRt3": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "caption_JepjcP",
+        "heading_WziXUg",
+        "paragraph_NiFLEr",
+        "email_form_xwqRt3"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "bgd_image": "shopify://shop_images/27_2.png",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -506,8 +729,12 @@
     "image_with_text_AeCeAG",
     "ugc_videos_jPbQ7T",
     "features_icons_nycHte",
+    "image_with_text_wzUefa",
+    "image_with_text_Ba7XjC",
     "rich_text_aPThNG",
     "1751222198eb266cdb",
-    "1761795488d7639f91"
+    "image_with_text_eMy7jJ",
+    "1761795488d7639f91",
+    "newsletter_pqdXdk"
   ]
 }
