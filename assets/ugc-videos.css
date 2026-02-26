@@ -1,0 +1,118 @@
+.ugc-videos--blocks .ugc-video{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.ugc-videos--blocks .collection-list.slider{
+  scroll-padding-left: 0;
+}
+.ugc-videos--blocks .loading__spinner{
+  bottom: 6%;
+  right: 7%;
+}
+.ugc-videos--blocks .slider-buttons{
+  display: flex !important;
+  margin-top: 2rem;
+}
+.ugc-videos--blocks.page-width{
+  max-width: 100%;
+}
+.ugc-videos--blocks .slider-counter{
+  display: none;
+}
+.ugc-videos--blocks .slider-buttons
+  .slider-button:not([disabled="disabled"])
+  path {
+  stroke: #0A0F17;
+  stroke-opacity: 1;
+}
+.ugc-videos--blocks .ugc-product--image{
+  width: fit-content;
+  height: fit-content;
+}
+.ugc-videos--blocks .ugc-product--image img{
+  border-radius: 10px;
+}
+.ugc-videos--blocks .product-image-details{
+  display: flex;
+  width: fit-content;
+  gap: 1rem;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.ugc-videos--blocks .slider-button{
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+}
+.ugc-product-title{
+  font-family: var(--font-body-family);
+}
+.ugc-videos--blocks .slider-buttons{
+  gap: 0.5rem;
+}
+/* .ugc-product-details{
+  max-width: 100px;
+  height: fit-content;
+} */
+.ugc-videos--blocks .quick-add__submit{
+  padding: 0;
+  min-width: fit-content;
+  border: unset;
+  background: inherit;
+  cursor: pointer;
+}
+.ugc-videos--blocks .svg-wrapper{
+  width: 100%;
+  height: 100%;
+}
+.ugc-videos--blocks .ugc-product-add{
+  width: fit-content;
+  height: fit-content;
+}
+.ugc-product--block{
+  display: flex;
+  justify-content: space-between;
+  border: 0.1px solid #0A0F17;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+.ugc-videos--blocks modal-opener::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+
+}
+.ugc-videos--blocks .slider.slider--tablet{
+          position: relative;
+        flex-wrap: inherit;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scroll-padding-left: 1.5rem;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 1rem;
+}
+.ugc-product--block .ugc-product-price{
+  display: none;
+}
+.ugc-mute-toggle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  transform: translate(-50%,-50%);
+}
+
+.ugc-video--block{
+  position: relative;
+}
