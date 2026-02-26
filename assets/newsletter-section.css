@@ -2,7 +2,63 @@
   padding-right: calc(4rem / var(--font-body-scale));
   padding-left: calc(4rem / var(--font-body-scale));
 }
-
+.newsletter__wrapper .newsletter-form__button{
+  color: #ffffff;
+  gap: 10px;
+  position: unset;
+  border: 1px solid #C0C3C6;
+}
+.newsletter__wrapper .newsletter-form__button:hover{
+  color: #0A0F17;
+}
+.newsletter__wrapper .newsletter-form__button svg{
+  position: relative;
+  top: 1px;
+}
+.newsletter-form__field-wrapper .field{
+  gap: 10px;
+}
+.newsletter__wrapper .bgd-image-container{
+    background-color: #ffffff;
+    position: relative;
+    min-height: 250px;
+    border-radius: 18px;
+}
+.bgd-img-area{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    width: calc(100% - 225px);
+    min-height: 250px;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-block: 64px;
+}
+.newsletter-text-area{
+  text-align: left;
+}
+.bgd-img-area .inline-richtext{
+  margin-block: 10px;
+}
+.bgd-img-area .newsletter__subheading{
+  color: #8A8D92;
+}
+.bgd-img-area .newsletter-form__field-wrapper .field__input{
+  background-color: #ffffff;
+  border: 1px solid #C0C3C6;
+  max-width: 310px;
+  width: 100%;
+}
+.newsletter-form__button::after{
+  display: none;
+}
+.newsletter-form__button::before{
+  display: none;
+}
+.newsletter-form__field-wrapper .field::after{
+  display: none;
+}
 @media screen and (min-width: 750px) {
   .newsletter__wrapper {
     padding-right: 9rem;
@@ -29,9 +85,9 @@
   margin-right: auto;
 }
 
-.newsletter__wrapper .newsletter-form__field-wrapper {
+/* .newsletter__wrapper .newsletter-form__field-wrapper {
   max-width: 36rem;
-}
+} */
 
 .newsletter-form__field-wrapper .newsletter-form__message {
   margin-top: 1.5rem;
@@ -46,5 +102,19 @@
   .newsletter__button {
     flex-shrink: 0;
     margin: 0 0 0 1rem;
+  }
+}
+@media screen and (max-width: 989px){
+  .newsletter__wrapper .bgd-image-container::before{
+    width: 100% !important;
+  }
+  .bgd-img-area{
+    width: 100%;
+  }
+  .newsletter-text-area{
+    text-align: center;
+  }
+  .bgd-img-area{
+    justify-content: center;
   }
 }
