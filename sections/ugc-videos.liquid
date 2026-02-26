@@ -1,0 +1,367 @@
+{{ 'ugc-videos.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  /* Optional but recommended: make the product row a clean link */
+  .ugc-product-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .ugc-product-link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+    border-radius: 10px;
+  }
+{%- endstyle -%}
+
+<section>
+  <div class="ugc-main__container color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+    <div class="ugc-videos--blocks page-width">
+      <slider-component class="slider-mobile-gutter scroll-trigger animate--slide-in">
+        <ul
+          class="collection-list contains-card contains-card--collection grid {% if section.blocks.size < 6 %}grid--{{ section.blocks.size }}-col-desktop{% else %}grid--4-col-desktop {% endif %}grid--1-col-tablet-down slider slider--tablet"
+          id="Slider-{{ section.id }}"
+          role="list"
+        >
+          {%- for block in section.blocks -%}
+            {% case block.type %}
+              {% when 'ugc-video' %}
+                <li
+                  id="Slide-{{ section.id }}-{{ forloop.index }}"
+                  class="collection-list__item grid__item slider__slide scroll-trigger animate--slide-in"
+                  {{ block.shopify_attributes }}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                >
+                  <div class="ugc-video--block">
+                    {{
+                      block.settings.video
+                      | video_tag:
+                        image_size: '260x',
+                        controls: false,
+                        preload: 'metadata',
+                        class: 'ugc-video',
+                        enable_video_looping: block.settings.enable_video_looping
+                    }}
+
+                    <button class="ugc-mute-toggle" aria-label="Toggle sound">
+                      <svg class="icon icon-muted" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <rect width="34" height="34" rx="10" fill="white" fill-opacity="0.06"/>
+                        <path d="M24.8289 15.1943L21.2168 18.8064" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.2168 15.1943L24.8289 18.8064" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.1878 14.5924H10.3817C9.72596 14.5924 9.17773 15.1406 9.17773 15.7964V18.2044C9.17773 18.8602 9.72596 19.4084 10.3817 19.4084H12.1878L16.8955 22.7917C17.6724 23.3293 18.7888 22.7632 18.8098 21.8164V12.1843C18.8324 11.2369 17.7829 10.67 17.0038 11.2091L12.1878 14.5924Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+
+                      <svg
+                        class="icon icon-unmuted hidden"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="34"
+                        height="34"
+                        viewBox="0 0 34 34"
+                        fill="none"
+                      >
+                        <rect width="34" height="34" rx="10" fill="white" fill-opacity="0.06"/>
+                        <path d="M20.1275 14.1061C20.1275 14.1061 21.5088 14.8738 21.5088 16.7199C21.5088 18.3765 20.1657 19.2142 20.1657 19.2142" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M23.0144 13.126C23.0144 13.126 24.9921 14.2252 24.9921 16.8682C24.992 19.2401 23.0691 20.4394 23.0691 20.4394" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11.395 14.6524H9.58902C8.93324 14.6524 8.38501 15.2006 8.38501 15.8565V18.2645C8.38501 18.9202 8.93324 19.4685 9.58902 19.4685H11.395L16.1027 22.8517C16.8797 23.3893 17.9961 22.8233 18.0171 21.8765V12.2444C18.0397 11.297 16.9902 10.7301 16.2111 11.2691L11.395 14.6524Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                  </div>
+
+                  {% if block.settings.product != blank %}
+                    <div class="ugc-product--block">
+                      <a
+                        href="{{ block.settings.product.url }}"
+                        class="ugc-product-link"
+                        aria-label="View {{ block.settings.product.title | escape }}"
+                      >
+                        <div class="product-image-details">
+                          <div class="ugc-product--image">
+                            <img
+                              src="{{ block.settings.product.featured_image | image_url: width: 128 }}"
+                              alt="{{ block.settings.product.featured_image.alt | escape }}"
+                              width="64"
+                              height="64"
+                              loading="lazy"
+                            >
+                          </div>
+                          <div class="ugc-product-details">
+                            <div class="ugc-product-title f-12 b-600">
+                              {{ block.settings.product.title }}
+                            </div>
+                            {% comment %} <div class="ugc-product-price">
+                              {%- render 'price', product: block.settings.product -%}
+                            </div> {% endcomment %}
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  {% endif %}
+                </li>
+            {% endcase %}
+          {%- endfor -%}
+        </ul>
+
+        {% if section.blocks.size > 4 %}
+          <div class="slider-buttons">
+            <button
+              type="button"
+              class="slider-button slider-button--prev"
+              name="previous"
+              aria-label="{{ 'general.slider.previous_slide' | t }}"
+            >
+              <span class="svg-wrapper">
+                {%- render 'icon-left-arr' -%}
+              </span>
+            </button>
+            <div class="slider-counter caption">
+              <span class="slider-counter--current">1</span>
+              <span aria-hidden="true"> / </span>
+              <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+              <span class="slider-counter--total">{{ section.blocks.size }}</span>
+            </div>
+            <button
+              type="button"
+              class="slider-button slider-button--next"
+              name="next"
+              aria-label="{{ 'general.slider.next_slide' | t }}"
+            >
+              <span class="svg-wrapper">
+                {%- render 'icon-rt-arr' -%}
+              </span>
+            </button>
+          </div>
+        {% endif %}
+      </slider-component>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const videoBlocks = document.querySelectorAll('.ugc-video--block');
+
+    function pauseAllVideosExcept(currentVideo) {
+      document.querySelectorAll('.ugc-video').forEach(video => {
+        if (video !== currentVideo) {
+          video.pause();
+        }
+      });
+    }
+
+    function muteAllVideos() {
+      document.querySelectorAll('.ugc-video').forEach(video => {
+        video.muted = true;
+      });
+      document.querySelectorAll('.ugc-mute-toggle').forEach(button => {
+        const mutedIcon = button.querySelector('.icon-muted');
+        const unmutedIcon = button.querySelector('.icon-unmuted');
+        if (mutedIcon && unmutedIcon) {
+          mutedIcon.classList.remove('hidden');
+          unmutedIcon.classList.add('hidden');
+        }
+      });
+    }
+
+    // base video settings
+    videoBlocks.forEach(block => {
+      const video = block.querySelector('.ugc-video');
+      if (!video) return;
+      video.loop = true;
+      video.muted = true;
+      video.playsInline = true;
+    });
+
+    // autoplay only when the block is visible
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          const block = entry.target;
+          const video = block.querySelector('.ugc-video');
+          if (!video) return;
+
+          if (entry.isIntersecting) {
+            // Only play if video is not already playing
+            if (video.paused) {
+              video.play().catch(() => {});
+            }
+          } else {
+            // Remove automatic pausing on scroll out of view
+            // video.pause();
+          }
+        });
+      }, { threshold: 0.1 }); // Lowered threshold to 10%
+
+      videoBlocks.forEach(block => observer.observe(block));
+    } else {
+      // fallback for older browsers - play the first video only
+      const firstVideo = document.querySelector('.ugc-video');
+      if (firstVideo) {
+        firstVideo.play().catch(() => {});
+      }
+    }
+
+    // mute toggle logic
+    videoBlocks.forEach(block => {
+      const video = block.querySelector('.ugc-video');
+      const button = block.querySelector('.ugc-mute-toggle');
+      const mutedIcon = button ? button.querySelector('.icon-muted') : null;
+      const unmutedIcon = button ? button.querySelector('.icon-unmuted') : null;
+
+      if (!video || !button) return;
+
+      button.addEventListener('click', (e) => {
+        // prevent click from doing anything else
+        e.preventDefault();
+        e.stopPropagation();
+
+        // Mark this video as user-interacted
+        video.setAttribute('data-user-interacted', 'true');
+
+        const wasMuted = video.muted;
+
+        if (wasMuted) {
+          // Only mute other videos, not the current one
+          document.querySelectorAll('.ugc-video').forEach(v => {
+            if (v !== video) {
+              v.muted = true;
+            }
+          });
+          // Update icons for other videos
+          document.querySelectorAll('.ugc-mute-toggle').forEach(btn => {
+            const blockVideo = btn.closest('.ugc-video--block').querySelector('.ugc-video');
+            const mutedIcon = btn.querySelector('.icon-muted');
+            const unmutedIcon = btn.querySelector('.icon-unmuted');
+            if (blockVideo !== video && mutedIcon && unmutedIcon) {
+              mutedIcon.classList.remove('hidden');
+              unmutedIcon.classList.add('hidden');
+            }
+          });
+          
+          // Just unmute current video (don't call play() as it should already be playing)
+          video.muted = false;
+          if (mutedIcon && unmutedIcon) {
+            mutedIcon.classList.add('hidden');
+            unmutedIcon.classList.remove('hidden');
+          }
+        } else {
+          // If clicking unmuted video, just mute it
+          video.muted = true;
+          if (mutedIcon && unmutedIcon) {
+            mutedIcon.classList.remove('hidden');
+            unmutedIcon.classList.add('hidden');
+          }
+        }
+      });
+    });
+
+    // equal height for product blocks
+    function equalizeProductHeights() {
+      const productBlocks = document.querySelectorAll('.ugc-main__container .ugc-product--block');
+      if (!productBlocks.length) return;
+
+      let maxHeight = 0;
+
+      productBlocks.forEach(el => { el.style.height = 'auto'; });
+      productBlocks.forEach(el => {
+        const h = el.offsetHeight;
+        if (h > maxHeight) maxHeight = h;
+      });
+      productBlocks.forEach(el => {
+        el.style.height = `${maxHeight}px`;
+      });
+    }
+
+    equalizeProductHeights();
+
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(equalizeProductHeights, 200);
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "UGC-Videos",
+  "tag": "section",
+  "class": "section section-ugc-videos",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.all.colors.has_cards_info",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ugc-video",
+      "name": "UGC Video Block",
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "A Shopify-hosted video"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_video_looping",
+          "label": "t:sections.video.settings.enable_video_looping.label",
+          "default": false
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "UGC-Videos"
+    }
+  ]
+}
+{% endschema %}

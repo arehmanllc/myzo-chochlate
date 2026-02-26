@@ -36,7 +36,7 @@
 }
 .features-icons .center .ft-icons__content h2{
 font-family: var(--font-body-family);
-  font-size: clamp(20px,3vw,16px);
+  font-size: clamp(16px,3vw,20px);
   font-weight: 500;
   line-height: 100%;
   margin-bottom: 0;
