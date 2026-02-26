@@ -220,7 +220,7 @@
             "heading_width": 30,
             "text": "Crafted exclusively from cacao grown in Costa Rica’s Matina Valley, each bar reflects the unique soil, sun, and spirit of one extraordinary place.",
             "text_width": 30,
-            "image": "shopify://shop_images/image_840.png",
+            "image": "shopify://shop_images/image_840_1.png",
             "icon": "check_mark"
           }
         },
@@ -232,7 +232,7 @@
             "heading_width": 30,
             "text": "Made from rare Criollo and Trinitario varieties prized for their delicate aroma and complex flavor, offering a refined chocolate experience in every bite.",
             "text_width": 30,
-            "image": "shopify://shop_images/image_905.png",
+            "image": "shopify://shop_images/image_905_1.png",
             "icon": "check_mark"
           }
         },
@@ -244,7 +244,7 @@
             "heading_width": 30,
             "text": "We work directly with Costa Rican farmers, ensuring fair partnerships, full transparency, and cacao sourced with integrity and respect.",
             "text_width": 30,
-            "image": "shopify://shop_images/image_857.png",
+            "image": "shopify://shop_images/image_903.png",
             "icon": "check_mark"
           }
         },
@@ -256,7 +256,7 @@
             "heading_width": 30,
             "text": "Only certified organic cacao and ingredients, grown in harmony with nature and crafted without synthetic pesticides or chemicals.",
             "text_width": 30,
-            "image": "shopify://shop_images/image_857.png",
+            "image": "shopify://shop_images/image_857_1.png",
             "icon": "check_mark"
           }
         },
@@ -268,7 +268,7 @@
             "heading_width": 30,
             "text": "We keep it pure and simple with no soy lecithin or artificial stabilizers, allowing the true texture and character of cacao to shine.",
             "text_width": 30,
-            "image": "shopify://shop_images/image_857.png",
+            "image": "shopify://shop_images/image_855.png",
             "icon": "check_mark"
           }
         },
@@ -280,7 +280,7 @@
             "heading_width": 30,
             "text": "Our chocolate is made with non genetically modified ingredients, preserving the authenticity of the cacao just as nature intended.",
             "text_width": 30,
-            "image": "shopify://shop_images/image_905.png",
+            "image": "shopify://shop_images/image_902_1.png",
             "icon": "check_mark"
           }
         }
@@ -301,7 +301,7 @@
         "columns_desktop": 6,
         "columns_mobile": "2",
         "heading_size": "f-16",
-        "text_size": "f-12",
+        "text_size": "f-14",
         "padding_top": 36,
         "padding_top_mobile": 40,
         "padding_bottom": 36,
