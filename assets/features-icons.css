@@ -34,7 +34,14 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+.features-icons .center .ft-icons__content h2{
+font-family: var(--font-body-family);
+  font-size: clamp(20px,3vw,16px);
+  font-weight: 500;
+  line-height: 100%;
+  margin-bottom: 0;
+  letter-spacing: 1%;
+}
 .ft-icons__content>p,
 .ft-icons__content>h2 {
   max-width: var(--max-width);
@@ -52,8 +59,17 @@
 .features-icons-horizontal .ft-icons__icon img,
 .features-icons-horizontal .ft-icons__icon .svg-wrapper{width: 6rem !important;height: 6rem !important;top: 50%;left: 50%;}  
 .features-icons-horizontal .features-icons__list{row-gap: calc(var(--grid-desktop-vertical-spacing));}
-.features-icons-horizontal .features-icons__list-item{display: grid;grid-template-rows: auto 1fr;gap: 10px;align-items: center;}
-
+.features-icons-horizontal .features-icons__list-item{display: grid;grid-template-rows: auto 1fr;gap: 10px;align-items: start;}
+.features-icons-horizontal .ft-icons__content p{
+  min-height: 150px;
+  letter-spacing: 1%;
+}
+.ft-icons__content{
+  display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
 @media screen and (min-width: 750px) {
   li.grid__item.features-icons__list-item.relative:hover .ft-icons__icon,
   .ft-icons__icon:hover,
@@ -68,6 +84,9 @@
 
   .features-icons__list-item {
     padding-bottom: 1.5rem;
+  }
+  .features-icons-horizontal .ft-icons__content p{
+    min-height: 110px;
   }
 
   .features-icons__list{row-gap: calc(var(--grid-mobile-vertical-spacing) * 2.4);}
