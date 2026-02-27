@@ -2035,7 +2035,9 @@ input[type='checkbox'] {
   content: '\2022';
   margin: 0 0.5rem;
 }
-
+.quantity-container{
+  margin-top: 10px;
+}
 .quantity__rules-cart {
   position: relative;
 }
