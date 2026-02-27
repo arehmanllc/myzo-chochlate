@@ -1,0 +1,89 @@
+.collapse {
+  background: var(--gradient-background);
+  border-top: .1rem solid rgba(230, 228, 214, 1);
+  border-bottom: .1rem solid rgba(230, 228, 214, 1);
+}
+
+.collapse-button * {
+  pointer-events: none;
+}
+
+.collapse-button h2 {
+  margin: 0;
+  text-align: left;
+}
+
+.collapse-button h2:not(.b-600) {
+  /* font-weight: 500; */
+}
+
+.collapse-button.active h2:not(.b-600) {
+  font-weight: 600;
+}
+
+.collapse-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: var(--gradient-background);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 2rem 0rem 2rem 0;
+  font-family: inherit;
+}
+
+
+.collapse-content * {
+  color: rgba(var(--color-foreground), 1);
+}
+
+.collapse-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding-right: 2rem;
+  padding-left: 0rem;
+}
+
+
+.collapse-content p:only-child {
+  margin: 0;
+}
+
+.collapse-button svg {
+  transition: all 0.3s ease-in-out;
+  /* width: 6px;
+  height: 12px; */
+}
+
+.collapse-button.active svg {
+  transform: rotate(180deg);
+}
+button.collapse-button.active svg rect:last-child{opacity: 0;}
+.collapse-content.active {
+  padding-bottom: 2rem;
+}
+
+collapse-content+collapse-content .collapse {
+  border-top: none !important;
+}
+
+.collapse-content__grid-item {
+  max-width: var(--max-width);
+  font-size: 1.3rem;
+}
+.collapse-content__grid-item strong{font-weight: 600;}
+.collapse-content__grid-item *:first-child{margin-top: 0rem;}
+.collapse-content__grid-item *:last-child{margin-bottom: 0rem;}
+@media screen and (min-width: 749px) {
+  .collapse-content__grid {
+    display: grid;
+    grid-template-columns: calc(50% - 1.5rem) auto;
+    gap: 1.5rem;
+  }
+}
+.product__description .collapse-button svg,
+.product_dropdown .collapse-button svg{width: 18px;}
