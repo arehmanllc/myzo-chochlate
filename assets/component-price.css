@@ -1,11 +1,10 @@
 .price {
   font-size: 1.6rem;
-  letter-spacing: 0.1rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   color: rgb(var(--color-foreground));
 }
 
-.price > * {
+.price>* {
   display: inline-block;
   vertical-align: top;
 }
@@ -96,5 +95,40 @@
   letter-spacing: 0.04rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
   margin-top: 0.2rem;
+  text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
+}
+
+.prod-block__price .price__container {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: -0.20px;
+}
+
+.prod-block__price .price.price--large.price--on-sale span.price-item.price-item--sale.price-item--last {
+  color: #d22d00;
+  font-weight: 600;
+}
+
+.prod-block__price .price.price--large.price--on-sale .price-item--regular {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.prod-price__badges {
+  display: flex;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+
+.prod-price__badges > div:last-child {
+  padding-left: 1.5rem;
+  margin-left: 1.5rem;
+  border-left: .1rem solid rgba(var(--color-foreground), .08) !important;
+}
+
+.jdgm-widget.jdgm-preview-badge.jdgm-preview-badge--with-link.jdgm--done-setup span.jdgm-prev-badge__text{padding-left: 0.5rem;font-size: 1.3rem;font-weight: 500;}
+.jdgm-widget.jdgm-preview-badge.jdgm-preview-badge--with-link.jdgm--done-setup {
+  font-size: 1.4rem;
+  line-height: 1;
 }

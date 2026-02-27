@@ -216,6 +216,8 @@ cart-drawer-items {
 
 .cart-drawer .cart-item__image {
   max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .cart-drawer .cart-item__nested-line .cart-item__image {

@@ -1,0 +1,39 @@
+{% comment %} 
+ {%- render 'sticky-product', product: product -%}
+{% endcomment %}
+
+<sticky-product data-id="{{ section.id }}">
+  {%- liquid
+    assign selected_prod = product.selected_or_first_available_variant
+    if product.selected_or_first_available_variant.featured_media
+      assign current_media = product.selected_or_first_available_variant.featured_media
+    else
+      assign current_media = product.media[0] | default: product.media[1]
+    endif
+  -%}
+  <div class="st-prod">
+    <div class="page-width">
+      <div class="st-prod__grid{% if current_media %} grid-g{% endif %}">
+        <div class="st-prod__grid-item ">
+          <div class="media ratio" style="--ratio-percent: 80%;">
+            {%- if current_media -%}
+              {% render 'product-media', media: current_media, loop: true, variant_image: false %}
+            {%- endif -%}
+          </div>
+        </div>
+        <div class="st-prod__grid-item">
+          <div class="st-prod__prod">
+            <h2 class="st-prod__prod-title f-12 b-500">{{ product.title }} - <span class="b-600">{{ selected_prod.price | money }}</span></h2> 
+            <p class="f-11">{{ product.selected_or_first_available_variant.title }}</p>
+          </div>
+          <div class="st-prod__cta">
+            <button class="button button--primary" add-to-cart>
+              <span class="small-hide">Add to Cart</span>
+              <span class="medium-hide large-up-hide">{% render 'icon-pack', icon: 'cart' %}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</sticky-product>

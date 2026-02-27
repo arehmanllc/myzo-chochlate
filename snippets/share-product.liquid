@@ -1,0 +1,35 @@
+<div class="social-share__wrapper {{ class }}">
+  <p class="f-13">Share With:</p>
+  <ul class="list-unstyled social-share__list">
+    <li class="social-share__list-item">
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ product.url }}" class="link">
+        <span class="svg-wrapper">
+          {{- 'icon-facebook.svg' | inline_asset_content -}}
+        </span>
+      </a>
+    </li>
+    <li class="social-share__list-item">
+      <a href="https://twitter.com/intent/tweet?url={{ product.url }}" class="link">
+        <span class="svg-wrapper">
+          {{- 'icon-twitter.svg' | inline_asset_content -}}
+        </span>
+      </a>
+    </li>
+    <li class="social-share__list-item">
+      <a href="https://www.pinterest.com/pin/create/button/?url={{ product.url }}" class="link">
+        <span class="svg-wrapper">
+          {{- 'icon-pinterest.svg' | inline_asset_content -}}
+        </span>
+      </a>
+    </li>
+    <li class="social-share__list-item">
+      <a href="mailto:?subject=Check out this product: {{ product.title }}&body=Check out this product on {{ shop.name }}: {{ product.url | shop_url }}" class="link">
+        <span class="svg-wrapper">
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.66602 7.24805C7.75977 7.3418 7.86817 7.38867 7.99122 7.38867C8.11426 7.38867 8.2168 7.3418 8.29883 7.24805L15.1719 0.849609C15.2539 0.708984 15.2656 0.574219 15.207 0.445312C15.1484 0.292969 15.0078 0.216797 14.7852 0.216797L1.17969 0.251953C0.992192 0.251953 0.848638 0.322266 0.749028 0.462891C0.649419 0.603516 0.664067 0.744141 0.792973 0.884766L7.66602 7.24805ZM15.2949 3.3457C15.2949 3.19336 15.2246 3.08496 15.084 3.02051C14.9434 2.95605 14.8145 2.97656 14.6973 3.08203L9.30079 8.03906C8.92579 8.37891 8.49512 8.54883 8.00879 8.54883C7.52247 8.54883 7.08594 8.39062 6.69922 8.07422L1.3379 3.08203C1.20899 2.97656 1.07422 2.95312 0.933598 3.01172C0.792973 3.07031 0.722661 3.18164 0.722661 3.3457C0.710942 3.31055 0.705083 4.45312 0.705083 6.77344V10.2539C0.705083 10.5938 0.82227 10.8838 1.05665 11.124C1.29102 11.3643 1.57813 11.4844 1.91797 11.4844H14.082C14.4219 11.4844 14.709 11.3643 14.9434 11.124C15.1777 10.8838 15.2949 10.5938 15.2949 10.2539V3.3457Z" fill="currentColor"/>
+          </svg>
+        </span>
+      </a>
+    </li>
+  </ul>
+</div>

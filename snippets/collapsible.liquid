@@ -1,0 +1,44 @@
+{%- liquid
+  if label == blank and content == blank
+    assign label = block.settings.label
+    assign content = block.settings.content
+  endif
+  assign space = ' '
+  if first_active == 'active'
+    assign first_expand = true
+  else
+    assign first_expand = false
+  endif
+-%}
+<collapse-content {{ block_attributes }}>
+  <div class="collapse {%- if first_expand -%}{{ space }} active{%- endif -%}">
+    <div class="collapse-inner">
+      <button class="collapse-button {%- if first_expand -%}{{ space }} active{%- endif -%}">
+        <h2 class="{%  unless heading_size %}p-14 {% else %} {{ heading_size }} {% endunless %}{% unless button_font_family %}  f-body {% else %} f-head {% endunless %}">{{ label }}</h2>
+        {%- render 'icon-pack', icon: 'icon-plus' -%}
+      </button>
+      <div
+        class="collapse-content {% if content_2 != blank and content != blank %} collapse-content__grid{% endif %} {{ content_font_size }} {%- if first_expand -%}{{ space }} active{%- endif -%}"
+        collapse-content
+        {{ space }}
+        {%- if first_expand -%}
+          style="max-height: 1000px;"
+        {%- endif -%}
+      >
+        {%- if media != blank -%}
+          <img src="{{ media | img_url: 'master' }}" width="{{ media.width }}" height="{{ media.height }}">
+          &nbsp;
+        {%- endif -%}
+        {% if content_2 != blank and content != blank %}
+          <div class="collapse-content__grid-item" style="--max-width: {{ max_width | default: 'auto' }}rem;">{{ content }}</div>
+          <div class="collapse-content__grid-item" style="--max-width: {{ max_width_2 | default: 'auto' }}rem;">{{ content_2 }}</div>
+        {% else %}
+        <div class="collapse-content__grid-item" {% if max_width %} style="--max-width: {{ max_width | default: 'auto' }}rem;"{% endif %}>{{ content }}</div>
+        {% endif %}
+        {% if html_content != blank %}
+          {{ html_content }}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</collapse-content>
