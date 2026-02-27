@@ -23,6 +23,10 @@
           "type": "title",
           "settings": {}
         },
+        "judge_me_reviews_preview_badge_myRT7f": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -49,42 +53,75 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_9KXH6J": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingradients:",
+            "icon": "check_mark",
+            "content": "<p>Provided from Client</p>",
+            "page": ""
+          }
+        },
+        "icon_with_text_mXAibh": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/Frame_472089.png",
+            "heading_1": "Single Origin Cacao",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/Frame_472089_1.png",
+            "heading_2": "Fino de AromaHeirloom Cacao",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/Frame_472089_2.png",
+            "heading_3": "Direct Trade",
+            "icon_4": "truck",
+            "image_4": "shopify://shop_images/Frame_472089_3.png",
+            "heading_4": "Organic Ingredients",
+            "icon_5": "truck",
+            "image_5": "shopify://shop_images/Frame_472089_4.png",
+            "heading_5": "No Emulsifiers",
+            "icon_6": "truck",
+            "image_6": "shopify://shop_images/Frame_472089_5.png",
+            "heading_6": "Non GMO"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
           }
-        },
-        "judge_me_reviews_preview_badge_myRT7f": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "judge_me_reviews_preview_badge_myRT7f",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "judge_me_reviews_preview_badge_myRT7f"
+        "collapsible_tab_9KXH6J",
+        "icon_with_text_mXAibh",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "small",
         "constrain_to_viewport": true,
-        "media_fit": "cover",
-        "gallery_layout": "columns",
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
         "mobile_thumbnails": "hide",
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top_mobile": 10,
+        "padding_bottom": 12,
+        "padding_bottom_mobile": 24
       }
     },
     "175122175779d72bbd": {
@@ -103,8 +140,117 @@
       "block_order": [
         "judge_me_reviews_review_widget_iGP6rD"
       ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
+      }
+    },
+    "image_with_text_TLFRDa": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_AzVcNw": {
+          "type": "caption",
+          "settings": {
+            "caption": "Silky. Pure. Joy.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_CFK4E3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Caribbean Cream Dream",
+            "heading_size": "h1",
+            "heading_clr": "",
+            "heading_size_clr": "h1"
+          }
+        },
+        "text_Af8ptX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MYZO’s 48% Milk Chocolate is crafted from single origin Criollo and Trinitario cacao beans from Costa Rica’s Matina Valley, gently blended with smooth milk for a perfectly balanced sweetness.<br/>Made in small batches with only five clean ingredients, it melts effortlessly on the tongue, delivering a rich yet delicate cocoa experience in every bite.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_AzVcNw",
+        "heading_CFK4E3",
+        "text_Af8ptX"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/2T6A5450_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_JrgQVP": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_Vh3a8H": {
+          "type": "caption",
+          "settings": {
+            "caption": "Family. Passion. Purpose.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_4Be9TW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the Heart Behind Myzo",
+            "heading_size": "h2",
+            "heading_clr": "",
+            "heading_size_clr": "h1"
+          }
+        },
+        "text_8ypkdM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re Myzo Chocolate—a family-owned bean-to-bar chocolate company founded by a veteran’s family. We make our chocolate from the rare Matina variety of cacao beans (Criollo and Trinitario genome) sourced directly from Costa Rican farmers. No middlemen—just honest partnerships. Our chocolate is crafted with love in Ukraine, where we strive to create jobs, and have a positive socio-economic impact. We are building our brand from Miami, Florida from where we aim to share our craft with the world.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_hzcBRY": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_Vh3a8H",
+        "heading_4Be9TW",
+        "text_8ypkdM",
+        "button_hzcBRY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Group_1000005110.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-a587dba5-ca83-41a2-b641-487b477a4772",
+        "color_scheme": "scheme-a587dba5-ca83-41a2-b641-487b477a4772",
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "related-products": {
@@ -124,11 +270,43 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "apps_N8Tmrh": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_RaWMaE": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 20,
+            "alignment": "left",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "left",
+            "link_color": "#383838",
+            "background_color": "#f9f4ea",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_RaWMaE"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "175122175779d72bbd",
-    "related-products"
+    "image_with_text_TLFRDa",
+    "image_with_text_JrgQVP",
+    "related-products",
+    "apps_N8Tmrh"
   ]
 }
