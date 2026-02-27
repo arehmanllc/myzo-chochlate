@@ -720,6 +720,99 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_reviews_kKYe6G": {
+      "type": "multicolumn-reviews",
+      "blocks": {
+        "column_KPyhpV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/27_2.png",
+            "title": "“",
+            "text": "<p>Myzo Milk Chocolate is the perfect balance of rich dark cocoa and smooth creaminess. It’s not too sweet, not too bitter — just a beautifully crafted dark milk chocolate that feels indulgent and satisfying.</p>",
+            "title_1": "”",
+            "product": "myzo-6-bar-bean-giftbox",
+            "link_label": "",
+            "link": "",
+            "author_image": "shopify://shop_images/Frame_472002.png",
+            "author": "Roman",
+            "ratings_image": "shopify://shop_images/Group_1000005020.png",
+            "author_caption": "Verified"
+          }
+        },
+        "column_hdbFa6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_879.png",
+            "title": "“",
+            "text": "<p>Absolutely delightful chocolate. It’s silky smooth and not at all butter. Very flavorful. Will order again.</p>",
+            "title_1": "”",
+            "product": "milk-chocolate",
+            "link_label": "",
+            "link": "",
+            "author_image": "shopify://shop_images/Frame_471999.png",
+            "author": "Rob",
+            "author_caption": "Verified"
+          }
+        },
+        "column_yKK46C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_880.png",
+            "title": "“",
+            "text": "<p>Absolutely delightful chocolate. It’s silky smooth and not at all butter. Very flavorful. Will order again.</p>",
+            "title_1": "“",
+            "product": "70-dark-chocolate",
+            "link_label": "",
+            "link": "",
+            "author_image": "shopify://shop_images/Frame_472002.png",
+            "author": "Sabine S.",
+            "author_caption": "Verified"
+          }
+        },
+        "column_zVaVTA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_878.png",
+            "title": "“",
+            "text": "<p>Absolutely delightful chocolate. It’s silky smooth and not at all butter. Very flavorful. Will order again.</p>",
+            "title_1": "”",
+            "product": "lavender-chocolate",
+            "link_label": "",
+            "link": "",
+            "author_image": "shopify://shop_images/Frame_471999.png",
+            "author": "Sabine S.",
+            "author_caption": "Verified"
+          }
+        }
+      },
+      "block_order": [
+        "column_KPyhpV",
+        "column_hdbFa6",
+        "column_yKK46C",
+        "column_zVaVTA"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "section_style": "testimonials",
+        "title": "Testimonials",
+        "heading_size": "h1",
+        "caption": "Loved by Many",
+        "testimonials-paragraph": "<p>Hear what chocolate lovers are saying about the rich flavor, purity, and soul in every bar.</p>",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "enable_desktop_slider": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -735,6 +828,7 @@
     "1751222198eb266cdb",
     "image_with_text_eMy7jJ",
     "1761795488d7639f91",
-    "newsletter_pqdXdk"
+    "newsletter_pqdXdk",
+    "multicolumn_reviews_kKYe6G"
   ]
 }
