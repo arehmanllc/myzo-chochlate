@@ -86,6 +86,34 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
+                  <div class="contact-block">
+                    <div class="phone-block">
+                      {% if block.settings.phone_image != blank %}
+                        <img src="{{ block.settings.phone_image |  img_url: '15x' }}" alt="{{ block.settings.phone_image.alt }}">
+                      {% endif %} 
+                      <div class="phone-number">
+                        {{ block.settings.phone_nmbr }}
+                      </div> 
+                    </div>
+                    <div class="email-block">
+                      {% if block.settings.email_image != blank %}
+                        <img src="{{ block.settings.email_image |  img_url: '15x' }}" alt="{{ block.settings.email_image.alt }}">
+                      {% endif %} 
+                      <div class="email-id">
+                        {{ block.settings.email }}
+                      </div> 
+                    </div>
+                    <div class="location-block">
+                      {% if block.settings.location_image != blank %}
+                        <img src="{{ block.settings.location_image |  img_url: '15x' }}" alt="{{ block.settings.location_image.alt }}">
+                      {% endif %} 
+                      <div class="location">
+                        {{ block.settings.location_id }}
+                      </div> 
+                    </div>
+
+
+                  </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -378,6 +406,30 @@
           "id": "subtext",
           "default": "t:sections.footer.blocks.text.settings.subtext.default",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
+        },{
+          "type": "image_picker",
+          "id": "phone_image",
+          "label": "Phone Image"
+        },{
+          "type": "richtext",
+          "id": "phone_nmbr",
+          "label": "Phone Number"
+        },{
+          "type": "image_picker",
+          "id": "email_image",
+          "label": "Email Image"
+        },{
+          "type": "richtext",
+          "id": "email",
+          "label": "Email"
+        },{
+          "type": "image_picker",
+          "id": "location_image",
+          "label": "Location Image"
+        },{
+          "type": "richtext",
+          "id": "location_id",
+          "label": "Location"
         }
       ]
     },

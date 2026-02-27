@@ -107,9 +107,10 @@
     "badge_corner_radius": 20,
     "sale_badge_color_scheme": "accent-3",
     "sold_out_badge_color_scheme": "accent-3",
-    "brand_headline": "BALANCE",
-    "brand_description": "<p>Savor the essence of Costa Rica in every bite, where tradition meets artistic packaging and quality.</p>",
-    "brand_image_width": 465,
+    "brand_headline": "",
+    "brand_description": "<p>It’s not just about bean-to-bar chocolate. We aim to support the social and economic growth of local communities. To be an eco-conscious brand. To nurture in our customers a love for nature, which gives us so many precious gifts—especially chocolate. Part of our profits go to environmental and veterans’ organizations that uphold integrity and help build a healthy society.</p>",
+    "brand_image": "shopify://shop_images/Union.png",
+    "brand_image_width": 175,
     "social_facebook_link": "https://www.facebook.com/profile.php?id=61577886152263",
     "social_instagram_link": "https://www.instagram.com/myzochocolate",
     "social_youtube_link": "",
@@ -286,6 +287,17 @@
           "background": "#f9f9f7",
           "background_gradient": "",
           "text": "#0a0f17",
+          "button": "#0a0f17",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#0a0f17",
+          "shadow": "#0a0f17"
+        }
+      },
+      "scheme-eeca714f-1602-4400-88ef-c3d5917e2334": {
+        "settings": {
+          "background": "#1c2129",
+          "background_gradient": "",
+          "text": "#aeb1b5",
           "button": "#0a0f17",
           "button_label": "#ffffff",
           "secondary_button_label": "#0a0f17",
