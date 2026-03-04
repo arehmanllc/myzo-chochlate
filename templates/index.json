@@ -924,6 +924,15 @@
             "row_content": "<p>Costa Rica is color. Jungle green. Papaya pink. Sunset coral. Our packaging reflects the vibrant land where cacao grows and aligns with our brand’s colorful soul.</p><p>Chocolate should look like a fiesta before you even unwrap it.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_fYN6mm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store MYZO chocolate?",
+            "icon": "question_mark",
+            "row_content": "<p>Store at 60-70°F (16-21°C). Keep away from moisture and direct sunlight. Chocolate is sensitive — like tropical fruit. Treat it gently.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -938,7 +947,8 @@
         "collapsible_row_JF7gxR",
         "collapsible_row_3bp866",
         "collapsible_row_GyeyH9",
-        "collapsible_row_CykCde"
+        "collapsible_row_CykCde",
+        "collapsible_row_fYN6mm"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
