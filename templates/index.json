@@ -870,6 +870,15 @@
             "row_content": "<p>We keep it simple and clean:<br/>• Organic cacao beans<br/>• <a href=\"/blogs/news/differnt-sugars-in-chocolate\" target=\"_blank\" title=\"Sweet Choices: What Sugar Means in Chocolate – For Taste, Health, and the Planet 🌱\">Organic sugarbeet sugar</a><br/>• Organic milk powder (for milk chocolate)<br/>• Organic cocoa butter</p><p>No soy lecithin<br/>No palm oil<br/>No artificial flavoring</p><p>We are proud of our ingredient honesty.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_Y6mhB9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is MYZO chocolate organic?",
+            "icon": "question_mark",
+            "row_content": "<p>Our cacao is grown organically on a family-owned plantation in Costa Rica. We focus on clean sourcing and responsible farming practices that protect soil, biodiversity, and people. Respect for nature is not marketing for us - it is responsibility.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -878,7 +887,8 @@
         "collapsible_row_HdDtXj",
         "collapsible_row_WLbzjp",
         "collapsible_row_L7G8XE",
-        "collapsible_row_R9JrK6"
+        "collapsible_row_R9JrK6",
+        "collapsible_row_Y6mhB9"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
