@@ -942,6 +942,15 @@
             "row_content": "<p>This is called bloom. It happens when cocoa butter or sugar crystals rise to the surface due to temperature changes. It is safe to eat and does not affect quality. Simply melt on your tongue - and enjoy.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_Da6VnN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship across the U.S.?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. We ship across USA and Canada. MYZO continues to grow its presence in the United States, with retail placements in multiple cities and expanding distribution. We carefully pack chocolate to protect it from heat. </p><p>If Miami sun gets too caliente, we adjust packaging accordingly.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -958,7 +967,8 @@
         "collapsible_row_GyeyH9",
         "collapsible_row_CykCde",
         "collapsible_row_fYN6mm",
-        "collapsible_row_r8aQ4N"
+        "collapsible_row_r8aQ4N",
+        "collapsible_row_Da6VnN"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
