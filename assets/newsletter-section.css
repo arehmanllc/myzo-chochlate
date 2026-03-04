@@ -33,7 +33,8 @@
     min-height: 250px;
     gap: 1rem;
     flex-wrap: wrap;
-    padding-block: 64px;
+    /* padding-block: 64px; */
+    padding-block: 32px;
 }
 .newsletter-text-area{
   text-align: left;
