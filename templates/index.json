@@ -933,6 +933,15 @@
             "row_content": "<p>Store at 60-70°F (16-21°C). Keep away from moisture and direct sunlight. Chocolate is sensitive — like tropical fruit. Treat it gently.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_r8aQ4N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why does chocolate sometimes turn white?",
+            "icon": "question_mark",
+            "row_content": "<p>This is called bloom. It happens when cocoa butter or sugar crystals rise to the surface due to temperature changes. It is safe to eat and does not affect quality. Simply melt on your tongue - and enjoy.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -948,7 +957,8 @@
         "collapsible_row_3bp866",
         "collapsible_row_GyeyH9",
         "collapsible_row_CykCde",
-        "collapsible_row_fYN6mm"
+        "collapsible_row_fYN6mm",
+        "collapsible_row_r8aQ4N"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
