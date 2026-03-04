@@ -861,6 +861,15 @@
             "row_content": "<p>Cacao is a fruit. The flavor depends on:<br/>• Genetics (Criollo & Trinitario)<br/>• Soil and climate<br/>• Fermentation methods<br/>• Roast profile</p><p>Our <a href=\"/blogs/news/matina-cacao-genetics-jungle-wisdom-and-traditions\" target=\"_blank\" title=\"Matina Cacao: Where Genetics, Jungle Wisdom, and Fermentation Traditions Meet\">Matina-origin cacao</a> is considered a \"Fino de Aroma\" cacao variety and develops natural notes of berries and tropical brightness. We highlight those flavors rather than overpower them with heavy roasting.<br/><br/>It is our sabor auténtico.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_R9JrK6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What ingredients do you use?",
+            "icon": "question_mark",
+            "row_content": "<p>We keep it simple and clean:<br/>• Organic cacao beans<br/>• <a href=\"/blogs/news/differnt-sugars-in-chocolate\" target=\"_blank\" title=\"Sweet Choices: What Sugar Means in Chocolate – For Taste, Health, and the Planet 🌱\">Organic sugarbeet sugar</a><br/>• Organic milk powder (for milk chocolate)<br/>• Organic cocoa butter</p><p>No soy lecithin<br/>No palm oil<br/>No artificial flavoring</p><p>We are proud of our ingredient honesty.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -868,7 +877,8 @@
         "collapsible_row_3fBf8Q",
         "collapsible_row_HdDtXj",
         "collapsible_row_WLbzjp",
-        "collapsible_row_L7G8XE"
+        "collapsible_row_L7G8XE",
+        "collapsible_row_R9JrK6"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
