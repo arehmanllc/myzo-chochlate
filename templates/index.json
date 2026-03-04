@@ -915,6 +915,15 @@
             "row_content": "<p><a href=\"/collections/chocolate-bars\" target=\"_blank\" title=\"Chocolate Bars\">Current flavors</a> include:</p><p>• 70% Dark<br/>• 48% Milk<br/>• 70% Dark with Whole Hazelnuts<br/>• 70% Dark with Raspberries<br/>• 70% Dark with Lavender<br/>• 48% Oat Milk</p><p>More sabores are always in development.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_CykCde": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why are your bars brightly packaged?",
+            "icon": "question_mark",
+            "row_content": "<p>Costa Rica is color. Jungle green. Papaya pink. Sunset coral. Our packaging reflects the vibrant land where cacao grows and aligns with our brand’s colorful soul.</p><p>Chocolate should look like a fiesta before you even unwrap it.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -928,7 +937,8 @@
         "collapsible_row_9J73xc",
         "collapsible_row_JF7gxR",
         "collapsible_row_3bp866",
-        "collapsible_row_GyeyH9"
+        "collapsible_row_GyeyH9",
+        "collapsible_row_CykCde"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
