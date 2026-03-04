@@ -834,11 +834,21 @@
             "row_content": "<p><a href=\"/blogs/news/bean-to-bar-the-craft-of-chocolate-making\" target=\"_blank\" title=\"From Bean to Bar: The Craft of Chocolate Making\">Bean-to-bar means</a> we control the entire chocolate-making journey:<br/>• We source cacao beans directly from farmers<br/>• We roast, crack, grind, refine, and temper in our own facility<br/>• We mold and wrap every bar ourselves</p><p>No middlemen. No industrial shortcuts. This approach allows us to protect flavor, ensure traceability, and maintain quality standards aligned with HACCP and ISO practices.</p><p>Our mastery is expressed daily in small batches.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_HdDtXj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where does your cacao come from?",
+            "icon": "question_mark",
+            "row_content": "<p>Our cacao grows in the <a href=\"/blogs/news/matina-cacao-genetics-jungle-wisdom-and-traditions\" target=\"_blank\" title=\"Matina Cacao: Where Genetics, Jungle Wisdom, and Fermentation Traditions Meet\">Matina River Valley in Costa Rica </a>- a lush region between the Talamanca Mountains and the Caribbean Sea.</p><p>The humid tropical climate gives our cacao natural fruity notes and a soft, lingering finish. Think: ripe berries, gentle acidity, deep cacao warmth — like a tropical night in the jungle.</p><p>Pura Vida 🌿</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_9p4dA9",
-        "collapsible_row_3fBf8Q"
+        "collapsible_row_3fBf8Q",
+        "collapsible_row_HdDtXj"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
