@@ -453,7 +453,7 @@
         "heading": "Everything You Want to Know About Our Chocolate, Mi Amor 🍫",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "section",
         "container_color_scheme": "",
         "color_scheme": "",
         "open_first_collapsible_row": false,
