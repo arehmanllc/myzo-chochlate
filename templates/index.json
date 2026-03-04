@@ -906,6 +906,15 @@
             "row_content": "<p>Our 70% dark chocolate bars (dark, lavender, hazelnut, raspberry) are vegan.<br/>Our 48% milk chocolate contains dairy.<br/>Our 48% oat milk chocolate is vegan and dairy-free.</p><p>Always check the ingredient list for specifics.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_GyeyH9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What chocolate varieties do you offer?",
+            "icon": "question_mark",
+            "row_content": "<p><a href=\"/collections/chocolate-bars\" target=\"_blank\" title=\"Chocolate Bars\">Current flavors</a> include:</p><p>• 70% Dark<br/>• 48% Milk<br/>• 70% Dark with Whole Hazelnuts<br/>• 70% Dark with Raspberries<br/>• 70% Dark with Lavender<br/>• 48% Oat Milk</p><p>More sabores are always in development.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -918,7 +927,8 @@
         "collapsible_row_Y6mhB9",
         "collapsible_row_9J73xc",
         "collapsible_row_JF7gxR",
-        "collapsible_row_3bp866"
+        "collapsible_row_3bp866",
+        "collapsible_row_GyeyH9"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
