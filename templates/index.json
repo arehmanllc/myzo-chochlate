@@ -852,13 +852,23 @@
             "row_content": "<p>Yes. We purchase cacao directly from one Costa Rican family farm that has managed the farm for around 50 years - without brokers or commodity traders.</p><p>Direct trade allows:<br/>• Fair compensation<br/>• Long-term relationships<br/>• Full transparency<br/><br/>We build fairness in cocoa personally - by sourcing our cocoa from a single estate in the Matina river valley.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_L7G8XE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why does MYZO chocolate taste fruity?",
+            "icon": "question_mark",
+            "row_content": "<p>Cacao is a fruit. The flavor depends on:<br/>• Genetics (Criollo & Trinitario)<br/>• Soil and climate<br/>• Fermentation methods<br/>• Roast profile</p><p>Our <a href=\"/blogs/news/matina-cacao-genetics-jungle-wisdom-and-traditions\" target=\"_blank\" title=\"Matina Cacao: Where Genetics, Jungle Wisdom, and Fermentation Traditions Meet\">Matina-origin cacao</a> is considered a \"Fino de Aroma\" cacao variety and develops natural notes of berries and tropical brightness. We highlight those flavors rather than overpower them with heavy roasting.<br/><br/>It is our sabor auténtico.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_9p4dA9",
         "collapsible_row_3fBf8Q",
         "collapsible_row_HdDtXj",
-        "collapsible_row_WLbzjp"
+        "collapsible_row_WLbzjp",
+        "collapsible_row_L7G8XE"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
