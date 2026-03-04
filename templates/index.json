@@ -960,6 +960,15 @@
             "row_content": "<p>Pura Vida is Costa Rican slang for living fully and gratefully.</p><p>It means:<br/>• All good<br/>• Life is beautiful<br/>• See you soon<br/>• Thank you</p><p>It is optimism in two words. Chocolate, like life, should feel Pura Vida.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_H7yRRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the best way for wholesalers and retailers to start working with MYZO?",
+            "icon": "question_mark",
+            "row_content": "<p>We are continuously expanding our representation across the United States. Whether you are a coffee-shop, a specialty grocer, or a retail chain you can reach us via our <a href=\"/pages/contact\" target=\"_blank\" title=\"Let's become Amigos!\">Contact Us</a> page or via our wholesale <a href=\"/pages/wholesale\" target=\"_blank\" title=\"Wholesale\">Faire.com</a> page. </p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -978,7 +987,8 @@
         "collapsible_row_fYN6mm",
         "collapsible_row_r8aQ4N",
         "collapsible_row_Da6VnN",
-        "collapsible_row_rTEzch"
+        "collapsible_row_rTEzch",
+        "collapsible_row_H7yRRf"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
