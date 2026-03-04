@@ -843,12 +843,22 @@
             "row_content": "<p>Our cacao grows in the <a href=\"/blogs/news/matina-cacao-genetics-jungle-wisdom-and-traditions\" target=\"_blank\" title=\"Matina Cacao: Where Genetics, Jungle Wisdom, and Fermentation Traditions Meet\">Matina River Valley in Costa Rica </a>- a lush region between the Talamanca Mountains and the Caribbean Sea.</p><p>The humid tropical climate gives our cacao natural fruity notes and a soft, lingering finish. Think: ripe berries, gentle acidity, deep cacao warmth — like a tropical night in the jungle.</p><p>Pura Vida 🌿</p>",
             "page": ""
           }
+        },
+        "collapsible_row_WLbzjp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you work directly with farmers?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. We purchase cacao directly from one Costa Rican family farm that has managed the farm for around 50 years - without brokers or commodity traders.</p><p>Direct trade allows:<br/>• Fair compensation<br/>• Long-term relationships<br/>• Full transparency<br/><br/>We build fairness in cocoa personally - by sourcing our cocoa from a single estate in the Matina river valley.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_9p4dA9",
         "collapsible_row_3fBf8Q",
-        "collapsible_row_HdDtXj"
+        "collapsible_row_HdDtXj",
+        "collapsible_row_WLbzjp"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
