@@ -813,6 +813,38 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_acgpFh": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_9p4dA9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes MYZO different from other chocolate brands?",
+            "icon": "none",
+            "row_content": "<p>Most chocolate in the world (about 85%) is made from bulk Forastero cacao. MYZO works with a rare Matina variety of Criollo and Trinitario cacao grown in Costa Rica - the same genetic families cherished by the Maya and Aztecs.</p><p><a href=\"/pages/about-us\" target=\"_blank\" title=\"Why We Do It\">We craft bean-to-bar chocolate in Ukraine</a> using cacao from a single Costa Rican family farm in the Matina region, between the Talamanca mountains and the Caribbean coast.</p><p>No palm oil.<br/>No soy lecithin.<br/>No artificial ingredients.</p><p>Just cacao, organic ingredients, and careful hands. Crafted in Ukraine. Blossomed in Miami. Rooted in Costa Rica.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_9p4dA9"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Everything You Want to Know About Our Chocolate, Mi Amor 🍫",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -829,6 +861,7 @@
     "image_with_text_eMy7jJ",
     "1761795488d7639f91",
     "newsletter_pqdXdk",
-    "multicolumn_reviews_kKYe6G"
+    "multicolumn_reviews_kKYe6G",
+    "collapsible_content_acgpFh"
   ]
 }
