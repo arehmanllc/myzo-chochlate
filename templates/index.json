@@ -951,6 +951,15 @@
             "row_content": "<p>Yes. We ship across USA and Canada. MYZO continues to grow its presence in the United States, with retail placements in multiple cities and expanding distribution. We carefully pack chocolate to protect it from heat. </p><p>If Miami sun gets too caliente, we adjust packaging accordingly.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_rTEzch": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does “Pura Vida” mean — and why do you use it?",
+            "icon": "question_mark",
+            "row_content": "<p>Pura Vida is Costa Rican slang for living fully and gratefully.</p><p>It means:<br/>• All good<br/>• Life is beautiful<br/>• See you soon<br/>• Thank you</p><p>It is optimism in two words. Chocolate, like life, should feel Pura Vida.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -968,7 +977,8 @@
         "collapsible_row_CykCde",
         "collapsible_row_fYN6mm",
         "collapsible_row_r8aQ4N",
-        "collapsible_row_Da6VnN"
+        "collapsible_row_Da6VnN",
+        "collapsible_row_rTEzch"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
