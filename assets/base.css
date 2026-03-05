@@ -2037,6 +2037,7 @@ input[type='checkbox'] {
 }
 .quantity-container{
   margin-top: 10px;
+  width: 100%;
 }
 .quantity__rules-cart {
   position: relative;
@@ -3672,7 +3673,7 @@ details-disclosure > details {
 .scroll-bar__secondary::-webkit-scrollbar-thumb,
 .scroll-bar__primary::-webkit-scrollbar-thumb{ background-color: #454648; border-radius: 30px; }
 .prog-bar__bar { width: 100%; background-color: #d4e3cb; border-radius: 5px; height: 10px; position: relative; overflow: hidden;}
-.prog-bar__bar-value { height: 100%; transform: scaleX(0); transform-origin: left; border-radius: 5px; background-color: var(--bg-color, #390c10); display: block !important; width: var(--width, 0%); animation: growProgress 0.8s forwards; animation-delay: 0.5s;}
+.prog-bar__bar-value { height: 100%; transform: scaleX(0); transform-origin: left; border-radius: 5px; background-color: var(--bg-color, #0A0F17); display: block !important; width: var(--width, 0%); animation: growProgress 0.8s forwards; animation-delay: 0.5s;}
 @keyframes growProgress { to { transform: scaleX(1); } }
 @media screen and (max-width: 749px) {.sm\:f-8  { --font-size: 0.8rem; }.sm\:f-10 { --font-size: 1rem; }.sm\:f-11 { --font-size: 1.1rem; }.sm\:f-12 { --font-size: 1.2rem; }.sm\:f-13 { --font-size: 1.3rem; }.sm\:f-14 { --font-size: 1.4rem; }.sm\:f-15 { --font-size: 1.5rem; }.sm\:f-16 { --font-size: 1.6rem; }.sm\:f-18 { --font-size: 1.8rem; }.sm\:f-20 { --font-size: 2rem; }.sm\:f-24 { --font-size: 2.4rem; }.sm\:center{text-align: center;}}
 #az_reviews .reviews_main_title p{

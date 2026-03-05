@@ -63,7 +63,7 @@
         </div>
       {%- endif -%}
       <div class="drawer__header">
-        <h2 class="drawer__heading">{{ 'sections.cart.title' | t }}</h2>
+        <h3 class="drawer__heading">{{ 'sections.cart.title' | t }}</h3>
         <button
           class="drawer__close"
           type="button"
@@ -152,7 +152,7 @@
                             <p class="caption-with-letter-spacing light">{{ item.product.vendor }}</p>
                           {%- endif -%}
 
-                          <a href="{{ item.url }}" class="cart-item__name f-15 f-head break link">
+                          <a href="{{ item.url }}" class="cart-item__name f-14 f-head break link">
                             {{- item.product.title | escape -}}
                           </a>
 

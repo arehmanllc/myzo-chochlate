@@ -359,6 +359,14 @@ quick-add-modal .product-form__buttons {
   padding: 0.8rem;
   min-width: 100%;
   box-sizing: border-box;
+  gap: 10px;
+  text-transform: uppercase;
+}
+.quick-add__submit svg path{
+  stroke: #0A0F17;
+}
+.quick-add__submit:hover svg path{
+  stroke: #ffffff;
 }
 
 quick-add-modal .product-media-container.constrain-height {
