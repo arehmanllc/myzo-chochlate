@@ -10,6 +10,7 @@
 
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'free-shipping-bar.js' | asset_url }}" defer="defer"></script>
 
 <style>
   .drawer {
@@ -87,6 +88,7 @@
         >
           <div id="CartDrawer-CartItems" class="drawer__contents js-contents">
             {%- if cart != empty -%}
+              {%- render 'free-shipping-bar' -%}
               <div class="drawer__cart-items-wrapper">
                 <table class="cart-items" role="table">
                   <thead role="rowgroup">
@@ -150,7 +152,7 @@
                             <p class="caption-with-letter-spacing light">{{ item.product.vendor }}</p>
                           {%- endif -%}
 
-                          <a href="{{ item.url }}" class="cart-item__name h4 break">
+                          <a href="{{ item.url }}" class="cart-item__name f-15 f-head break link">
                             {{- item.product.title | escape -}}
                           </a>
 
@@ -565,7 +567,7 @@
           <button
             type="submit"
             id="CartDrawer-Checkout"
-            class="cart__checkout-button button"
+            class="cart__checkout-button button uppercase"
             name="checkout"
             form="CartDrawer-Form"
             {% if cart == empty %}

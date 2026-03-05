@@ -14,8 +14,8 @@
   <div class="collapse {%- if first_expand -%}{{ space }} active{%- endif -%}">
     <div class="collapse-inner">
       <button class="collapse-button {%- if first_expand -%}{{ space }} active{%- endif -%}">
-        <h2 class="{%  unless heading_size %}p-14 {% else %} {{ heading_size }} {% endunless %}{% unless button_font_family %}  f-body {% else %} f-head {% endunless %}">{{ label }}</h2>
-        {%- render 'icon-pack', icon: 'icon-plus' -%}
+        <h2 class="{%  unless heading_size %}p-14 {% else %} {{ heading_size }} {% endunless %}">{{ label }}</h2>
+        {%- render 'icon-pack', icon: 'caret-down' -%}
       </button>
       <div
         class="collapse-content {% if content_2 != blank and content != blank %} collapse-content__grid{% endif %} {{ content_font_size }} {%- if first_expand -%}{{ space }} active{%- endif -%}"

@@ -34,6 +34,29 @@
     ]
   },
   {
+    "name": "Free Shipping Bar",
+    "settings": [
+      {
+        "type": "text",
+        "id": "free_shipping_success_text",
+        "label": "Success Message",
+        "default": "🎉 Congratulations! You've qualified for free shipping!"
+      },
+      {
+        "type": "text",
+        "id": "free_shipping_before_success_text",
+        "label": "Before Success Message",
+        "default": "Add amount_price  more to qualify for free shipping!"
+      },
+      {
+        "type": "number",
+        "id": "free_shipping_threshold",
+        "label": "Free Shipping Threshold",
+        "default": 12500
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {

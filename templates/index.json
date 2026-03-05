@@ -813,6 +813,198 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_acgpFh": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_9p4dA9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes MYZO different from other chocolate brands?",
+            "icon": "question_mark",
+            "row_content": "<p>Most chocolate in the world (about 85%) is made from bulk Forastero cacao. MYZO works with a rare Matina variety of Criollo and Trinitario cacao grown in Costa Rica - the same genetic families cherished by the Maya and Aztecs.</p><p><a href=\"/pages/about-us\" target=\"_blank\" title=\"Why We Do It\">We craft bean-to-bar chocolate in Ukraine</a> using cacao from a single Costa Rican family farm in the Matina region, between the Talamanca mountains and the Caribbean coast.</p><p>No palm oil.<br/>No soy lecithin.<br/>No artificial ingredients.</p><p>Just cacao, organic ingredients, and careful hands. Crafted in Ukraine. Blossomed in Miami. Rooted in Costa Rica.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3fBf8Q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does “bean-to-bar” mean?",
+            "icon": "question_mark",
+            "row_content": "<p><a href=\"/blogs/news/bean-to-bar-the-craft-of-chocolate-making\" target=\"_blank\" title=\"From Bean to Bar: The Craft of Chocolate Making\">Bean-to-bar means</a> we control the entire chocolate-making journey:<br/>• We source cacao beans directly from farmers<br/>• We roast, crack, grind, refine, and temper in our own facility<br/>• We mold and wrap every bar ourselves</p><p>No middlemen. No industrial shortcuts. This approach allows us to protect flavor, ensure traceability, and maintain quality standards aligned with HACCP and ISO practices.</p><p>Our mastery is expressed daily in small batches.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HdDtXj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where does your cacao come from?",
+            "icon": "question_mark",
+            "row_content": "<p>Our cacao grows in the <a href=\"/blogs/news/matina-cacao-genetics-jungle-wisdom-and-traditions\" target=\"_blank\" title=\"Matina Cacao: Where Genetics, Jungle Wisdom, and Fermentation Traditions Meet\">Matina River Valley in Costa Rica </a>- a lush region between the Talamanca Mountains and the Caribbean Sea.</p><p>The humid tropical climate gives our cacao natural fruity notes and a soft, lingering finish. Think: ripe berries, gentle acidity, deep cacao warmth — like a tropical night in the jungle.</p><p>Pura Vida 🌿</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WLbzjp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you work directly with farmers?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. We purchase cacao directly from one Costa Rican family farm that has managed the farm for around 50 years - without brokers or commodity traders.</p><p>Direct trade allows:<br/>• Fair compensation<br/>• Long-term relationships<br/>• Full transparency<br/><br/>We build fairness in cocoa personally - by sourcing our cocoa from a single estate in the Matina river valley.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_L7G8XE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why does MYZO chocolate taste fruity?",
+            "icon": "question_mark",
+            "row_content": "<p>Cacao is a fruit. The flavor depends on:<br/>• Genetics (Criollo & Trinitario)<br/>• Soil and climate<br/>• Fermentation methods<br/>• Roast profile</p><p>Our <a href=\"/blogs/news/matina-cacao-genetics-jungle-wisdom-and-traditions\" target=\"_blank\" title=\"Matina Cacao: Where Genetics, Jungle Wisdom, and Fermentation Traditions Meet\">Matina-origin cacao</a> is considered a \"Fino de Aroma\" cacao variety and develops natural notes of berries and tropical brightness. We highlight those flavors rather than overpower them with heavy roasting.<br/><br/>It is our sabor auténtico.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_R9JrK6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What ingredients do you use?",
+            "icon": "question_mark",
+            "row_content": "<p>We keep it simple and clean:<br/>• Organic cacao beans<br/>• <a href=\"/blogs/news/differnt-sugars-in-chocolate\" target=\"_blank\" title=\"Sweet Choices: What Sugar Means in Chocolate – For Taste, Health, and the Planet 🌱\">Organic sugarbeet sugar</a><br/>• Organic milk powder (for milk chocolate)<br/>• Organic cocoa butter</p><p>No soy lecithin<br/>No palm oil<br/>No artificial flavoring</p><p>We are proud of our ingredient honesty.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Y6mhB9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is MYZO chocolate organic?",
+            "icon": "question_mark",
+            "row_content": "<p>Our cacao is grown organically on a family-owned plantation in Costa Rica. We focus on clean sourcing and responsible farming practices that protect soil, biodiversity, and people. Respect for nature is not marketing for us - it is responsibility.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9J73xc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is your chocolate ethically sourced?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. We believe chocolate should uplift everyone along the chain. Our mission includes:<br/>• Fair partnerships<br/>• Environmental respect<br/>• Supporting ecological and veteran initiatives.</p><p>We do not shout about ethics. We practice it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JF7gxR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where is MYZO chocolate made?",
+            "icon": "question_mark",
+            "row_content": "<p>We produce MYZO in a town called Lutsk - a cozy town in north-western Ukraine, <a href=\"/blogs/news/a-chocolate-fiesta-in-lutsk-myzo-craft-revival\" target=\"_blank\" title=\"A Chocolate Fiesta in Lutsk: From Rosalini’s Café to MYZO’s Craft Revival\">where traditions of chocolate-making have been around for a hundred years</a>.</p><p>Our production facility processes cacao beans into finished bars entirely in-house. Our capacity allows up to 1,000 bars per week - small batch, carefully crafted. Ukraine gives our chocolate resilience and strength. Costa Rica gives it sun and color.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3bp866": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is MYZO vegan?",
+            "icon": "question_mark",
+            "row_content": "<p>Our 70% dark chocolate bars (dark, lavender, hazelnut, raspberry) are vegan.<br/>Our 48% milk chocolate contains dairy.<br/>Our 48% oat milk chocolate is vegan and dairy-free.</p><p>Always check the ingredient list for specifics.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GyeyH9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What chocolate varieties do you offer?",
+            "icon": "question_mark",
+            "row_content": "<p><a href=\"/collections/chocolate-bars\" target=\"_blank\" title=\"Chocolate Bars\">Current flavors</a> include:</p><p>• 70% Dark<br/>• 48% Milk<br/>• 70% Dark with Whole Hazelnuts<br/>• 70% Dark with Raspberries<br/>• 70% Dark with Lavender<br/>• 48% Oat Milk</p><p>More sabores are always in development.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CykCde": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why are your bars brightly packaged?",
+            "icon": "question_mark",
+            "row_content": "<p>Costa Rica is color. Jungle green. Papaya pink. Sunset coral. Our packaging reflects the vibrant land where cacao grows and aligns with our brand’s colorful soul.</p><p>Chocolate should look like a fiesta before you even unwrap it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fYN6mm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store MYZO chocolate?",
+            "icon": "question_mark",
+            "row_content": "<p>Store at 60-70°F (16-21°C). Keep away from moisture and direct sunlight. Chocolate is sensitive — like tropical fruit. Treat it gently.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_r8aQ4N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why does chocolate sometimes turn white?",
+            "icon": "question_mark",
+            "row_content": "<p>This is called bloom. It happens when cocoa butter or sugar crystals rise to the surface due to temperature changes. It is safe to eat and does not affect quality. Simply melt on your tongue - and enjoy.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Da6VnN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship across the U.S.?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. We ship across USA and Canada. MYZO continues to grow its presence in the United States, with retail placements in multiple cities and expanding distribution. We carefully pack chocolate to protect it from heat. </p><p>If Miami sun gets too caliente, we adjust packaging accordingly.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rTEzch": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does “Pura Vida” mean — and why do you use it?",
+            "icon": "question_mark",
+            "row_content": "<p>Pura Vida is Costa Rican slang for living fully and gratefully.</p><p>It means:<br/>• All good<br/>• Life is beautiful<br/>• See you soon<br/>• Thank you</p><p>It is optimism in two words. Chocolate, like life, should feel Pura Vida.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_H7yRRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the best way for wholesalers and retailers to start working with MYZO?",
+            "icon": "question_mark",
+            "row_content": "<p>We are continuously expanding our representation across the United States. Whether you are a coffee-shop, a specialty grocer, or a retail chain you can reach us via our <a href=\"/pages/contact\" target=\"_blank\" title=\"Let's become Amigos!\">Contact Us</a> page or via our wholesale <a href=\"/pages/wholesale\" target=\"_blank\" title=\"Wholesale\">Faire.com</a> page. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_9p4dA9",
+        "collapsible_row_3fBf8Q",
+        "collapsible_row_HdDtXj",
+        "collapsible_row_WLbzjp",
+        "collapsible_row_L7G8XE",
+        "collapsible_row_R9JrK6",
+        "collapsible_row_Y6mhB9",
+        "collapsible_row_9J73xc",
+        "collapsible_row_JF7gxR",
+        "collapsible_row_3bp866",
+        "collapsible_row_GyeyH9",
+        "collapsible_row_CykCde",
+        "collapsible_row_fYN6mm",
+        "collapsible_row_r8aQ4N",
+        "collapsible_row_Da6VnN",
+        "collapsible_row_rTEzch",
+        "collapsible_row_H7yRRf"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Everything You Want to Know About Our Chocolate, Mi Amor 🍫",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -829,6 +1021,7 @@
     "image_with_text_eMy7jJ",
     "1761795488d7639f91",
     "newsletter_pqdXdk",
-    "multicolumn_reviews_kKYe6G"
+    "multicolumn_reviews_kKYe6G",
+    "collapsible_content_acgpFh"
   ]
 }

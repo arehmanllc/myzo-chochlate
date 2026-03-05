@@ -66,6 +66,7 @@
         "row_HkVy8a": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Group_1000005126.png",
             "caption": "",
             "heading": "The Myzo Story",
             "text": "<p>In 2020, a spontaneous trip to Costa Rica changed everything. We discovered a culture rich in biodiversity, tradition, and joy. Costa Ricans live by the phrase <em>Pura Vida</em>—“pure life.” We took that spirit to heart.</p><p>We’re bringing the vibrant ecosystems of Central America to life—in every bite. From the tropical cacao groves of the Matina River Valley to your kitchen, our chocolate carries the taste of place.</p><p>🍫 <em>Every piece is a passport to somewhere wild and wonderful.</em></p>",
@@ -76,6 +77,7 @@
         "row_BDyUF7": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/2T6A5435.jpg",
             "caption": "",
             "heading": "What Makes Our Chocolate Special?",
             "text": "<p>In Costa Rica, cacao is sacred. For generations, the indigenous peoples—the Maya and the Aztecs—cultivated gourmet varieties like Criollo and Trinitario. These beans produce chocolate that’s smooth, fruity, and never bitter.</p>",
@@ -86,6 +88,7 @@
         "row_BqqEn9": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/20210905035847_IMG_6974_1.jpg",
             "caption": "",
             "heading": "Sourcing Direct from Farmers",
             "text": "<p>We work directly with farmers in the lush Matina valley, nestled between the Talamanca Mountains and the Caribbean Sea. Our ingredients are organic, our process honest, our intentions pure.</p><p>🌸 <em>You’ll taste the jungle, the history, and the heart with every bite.</em></p>",
