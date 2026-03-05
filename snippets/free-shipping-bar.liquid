@@ -6,7 +6,7 @@
 {% if cart_total >= free_shipping_value %}
   {% assign progress_color = '#28a745' %}
 {% else %}
-  {% assign progress_color = '#390c10' %}
+  {% assign progress_color = '#0A0F17' %}
 {% endif %}
 
 <free-shipping-bar>
@@ -15,7 +15,7 @@
     data-success-text="{{ settings.free_shipping_success_text | escape }}"
     data-before-success-text="{{ settings.free_shipping_before_success_text | escape }}"
     data-success-color="#28a745"
-    data-progress-color="#390c10"
+    data-progress-color="#0A0F17"
     data-cart-total="{{ cart_total }}"
   >
     {% if cart_total >= free_shipping_value %}
