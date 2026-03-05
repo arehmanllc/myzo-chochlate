@@ -106,8 +106,8 @@
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
     "badge_corner_radius": 20,
-    "sale_badge_color_scheme": "accent-3",
-    "sold_out_badge_color_scheme": "accent-3",
+    "sale_badge_color_scheme": "scheme-afca9f36-7b8a-4316-8276-3bf508d0b4a7",
+    "sold_out_badge_color_scheme": "scheme-afca9f36-7b8a-4316-8276-3bf508d0b4a7",
     "brand_headline": "",
     "brand_description": "<p>It’s not just about bean-to-bar chocolate. We aim to support the social and economic growth of local communities. To be an eco-conscious brand. To nurture in our customers a love for nature, which gives us so many precious gifts—especially chocolate. Part of our profits go to environmental and veterans’ organizations that uphold integrity and help build a healthy society.</p>",
     "brand_image": "shopify://shop_images/Union.png",
@@ -222,7 +222,7 @@
           "background": "#ffc703",
           "background_gradient": "",
           "text": "#0a0f17",
-          "button": "#0a0f17",
+          "button": "#ffc703",
           "button_label": "#ffffff",
           "secondary_button_label": "#0a0f17",
           "shadow": "#0a0f17"
@@ -299,6 +299,17 @@
           "background": "#1c2129",
           "background_gradient": "",
           "text": "#aeb1b5",
+          "button": "#0a0f17",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#0a0f17",
+          "shadow": "#0a0f17"
+        }
+      },
+      "scheme-afca9f36-7b8a-4316-8276-3bf508d0b4a7": {
+        "settings": {
+          "background": "#0a0f17",
+          "background_gradient": "",
+          "text": "#f8f4ed",
           "button": "#0a0f17",
           "button_label": "#ffffff",
           "secondary_button_label": "#0a0f17",
