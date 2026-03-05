@@ -12,6 +12,7 @@
     "logo": "shopify://shop_images/myzo_chocolate_logo.png",
     "logo_width": 170,
     "favicon": "shopify://shop_images/mstile-70x70.png",
+    "free_shipping_threshold": 10000,
     "type_header_font": "young_serif_n4",
     "heading_scale": 100,
     "type_body_font": "outfit_n4",

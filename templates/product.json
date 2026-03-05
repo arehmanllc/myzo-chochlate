@@ -271,10 +271,10 @@
         "padding_bottom": 28
       }
     },
-    "collapsible_content_qyAtCK": {
+    "collapsible_content_RfGNYE": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_7K3xjE": {
+        "collapsible_row_UhwFAj": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What makes MYZO different from other chocolate brands?",
@@ -283,7 +283,7 @@
             "page": ""
           }
         },
-        "collapsible_row_dd4N7W": {
+        "collapsible_row_9tLN6R": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What does “bean-to-bar” mean?",
@@ -292,7 +292,7 @@
             "page": ""
           }
         },
-        "collapsible_row_Qk4Rgz": {
+        "collapsible_row_LqUgCP": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Where does your cacao come from?",
@@ -301,7 +301,7 @@
             "page": ""
           }
         },
-        "collapsible_row_E3WcNV": {
+        "collapsible_row_iR3iiq": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Do you work directly with farmers?",
@@ -310,7 +310,7 @@
             "page": ""
           }
         },
-        "collapsible_row_QFEwzL": {
+        "collapsible_row_4LzdVy": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Why does MYZO chocolate taste fruity?",
@@ -319,7 +319,7 @@
             "page": ""
           }
         },
-        "collapsible_row_qpQDQU": {
+        "collapsible_row_DGH8Pd": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What ingredients do you use?",
@@ -328,7 +328,7 @@
             "page": ""
           }
         },
-        "collapsible_row_Wtqh89": {
+        "collapsible_row_YF3Kan": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Is MYZO chocolate organic?",
@@ -337,7 +337,7 @@
             "page": ""
           }
         },
-        "collapsible_row_mhDP7T": {
+        "collapsible_row_pbdiEk": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Is your chocolate ethically sourced?",
@@ -346,7 +346,7 @@
             "page": ""
           }
         },
-        "collapsible_row_99VVAy": {
+        "collapsible_row_WTBEQ7": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Where is MYZO chocolate made?",
@@ -355,7 +355,7 @@
             "page": ""
           }
         },
-        "collapsible_row_TDtEB6": {
+        "collapsible_row_EDWLLF": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Is MYZO vegan?",
@@ -364,7 +364,7 @@
             "page": ""
           }
         },
-        "collapsible_row_MHnQLM": {
+        "collapsible_row_7ybpy9": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What chocolate varieties do you offer?",
@@ -373,7 +373,7 @@
             "page": ""
           }
         },
-        "collapsible_row_KNw7JG": {
+        "collapsible_row_CtbNzP": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Why are your bars brightly packaged?",
@@ -382,7 +382,7 @@
             "page": ""
           }
         },
-        "collapsible_row_zJn8LX": {
+        "collapsible_row_qJtzk8": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How should I store MYZO chocolate?",
@@ -391,7 +391,7 @@
             "page": ""
           }
         },
-        "collapsible_row_fCAq4Y": {
+        "collapsible_row_KM9F8B": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Why does chocolate sometimes turn white?",
@@ -400,7 +400,7 @@
             "page": ""
           }
         },
-        "collapsible_row_t4Wck8": {
+        "collapsible_row_TrKBUW": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Do you ship across the U.S.?",
@@ -409,7 +409,7 @@
             "page": ""
           }
         },
-        "collapsible_row_ntdMbg": {
+        "collapsible_row_7EhNh7": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What does “Pura Vida” mean — and why do you use it?",
@@ -418,7 +418,7 @@
             "page": ""
           }
         },
-        "collapsible_row_JGiktt": {
+        "collapsible_row_yMGyPr": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What is the best way for wholesalers and retailers to start working with MYZO?",
@@ -429,23 +429,23 @@
         }
       },
       "block_order": [
-        "collapsible_row_7K3xjE",
-        "collapsible_row_dd4N7W",
-        "collapsible_row_Qk4Rgz",
-        "collapsible_row_E3WcNV",
-        "collapsible_row_QFEwzL",
-        "collapsible_row_qpQDQU",
-        "collapsible_row_Wtqh89",
-        "collapsible_row_mhDP7T",
-        "collapsible_row_99VVAy",
-        "collapsible_row_TDtEB6",
-        "collapsible_row_MHnQLM",
-        "collapsible_row_KNw7JG",
-        "collapsible_row_zJn8LX",
-        "collapsible_row_fCAq4Y",
-        "collapsible_row_t4Wck8",
-        "collapsible_row_ntdMbg",
-        "collapsible_row_JGiktt"
+        "collapsible_row_UhwFAj",
+        "collapsible_row_9tLN6R",
+        "collapsible_row_LqUgCP",
+        "collapsible_row_iR3iiq",
+        "collapsible_row_4LzdVy",
+        "collapsible_row_DGH8Pd",
+        "collapsible_row_YF3Kan",
+        "collapsible_row_pbdiEk",
+        "collapsible_row_WTBEQ7",
+        "collapsible_row_EDWLLF",
+        "collapsible_row_7ybpy9",
+        "collapsible_row_CtbNzP",
+        "collapsible_row_qJtzk8",
+        "collapsible_row_KM9F8B",
+        "collapsible_row_TrKBUW",
+        "collapsible_row_7EhNh7",
+        "collapsible_row_yMGyPr"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -453,9 +453,12 @@
         "heading": "Everything You Want to Know About Our Chocolate, Mi Amor 🍫",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "section",
-        "container_color_scheme": "",
+        "text": "Find answers to your most common questions about our products, shipping, returns, sizing, and more.",
+        "button_label": "Button label",
+        "button_link": "",
+        "layout": "none",
         "color_scheme": "",
+        "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -499,7 +502,7 @@
     "image_with_text_TLFRDa",
     "image_with_text_JrgQVP",
     "related-products",
-    "collapsible_content_qyAtCK",
+    "collapsible_content_RfGNYE",
     "apps_N8Tmrh"
   ]
 }

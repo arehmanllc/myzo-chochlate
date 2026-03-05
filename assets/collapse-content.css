@@ -1,7 +1,7 @@
 .collapse {
   background: var(--gradient-background);
-  border-top: .1rem solid rgba(230, 228, 214, 1);
-  border-bottom: .1rem solid rgba(230, 228, 214, 1);
+  border-top: .1rem solid #A9A9A9;
+  border-bottom: .1rem solid #A9A9A9;
 }
 
 .collapse-button * {
@@ -11,14 +11,7 @@
 .collapse-button h2 {
   margin: 0;
   text-align: left;
-}
-
-.collapse-button h2:not(.b-600) {
-  /* font-weight: 500; */
-}
-
-.collapse-button.active h2:not(.b-600) {
-  font-weight: 600;
+  color: rgb(var(--color-button));
 }
 
 .collapse-button {
@@ -26,13 +19,14 @@
   outline: none;
   border: none;
   background: var(--gradient-background);
+  color: rgb(var(--color-button));
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   padding: 2rem 0rem 2rem 0;
-  font-family: inherit;
+  font-family: inherit
 }
 
 
@@ -71,19 +65,11 @@ collapse-content+collapse-content .collapse {
   border-top: none !important;
 }
 
-.collapse-content__grid-item {
-  max-width: var(--max-width);
-  font-size: 1.3rem;
-}
-.collapse-content__grid-item strong{font-weight: 600;}
+.collapse-content__grid-item {max-width: var(--max-width);}
+.collapse-content__grid-item strong{font-weight: 500;}
 .collapse-content__grid-item *:first-child{margin-top: 0rem;}
 .collapse-content__grid-item *:last-child{margin-bottom: 0rem;}
-@media screen and (min-width: 749px) {
-  .collapse-content__grid {
-    display: grid;
-    grid-template-columns: calc(50% - 1.5rem) auto;
-    gap: 1.5rem;
-  }
-}
+.collapse-content__grid-item ul> li>p{display: inline;}
+@media screen and (min-width: 749px) { .collapse-content__grid { display: grid; grid-template-columns: calc(50% - 1.5rem) auto; gap: 1.5rem; }.collapsible-content.collapsible-section-layout.isolate.page-width{max-width: 106rem;}}
 .product__description .collapse-button svg,
 .product_dropdown .collapse-button svg{width: 18px;}

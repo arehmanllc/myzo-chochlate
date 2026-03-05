@@ -48,7 +48,7 @@
   margin: 0 auto;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  max-width: 73.4rem;
+  max-width: 106rem;
 }
 
 .collapsible-content__header {
@@ -126,3 +126,9 @@
     }
   }
 }
+
+.collapsible-content__header .caption-with-letter-spacing{margin-top: 0rem;}
+.collapsible-content__header .collapsible-content__heading{margin: 0rem;}
+.collapsible-content__header .rte{margin-bottom: 0rem;}
+.collapsible-content__header{margin-bottom: 3.5rem;}
+@media screen and (min-width: 990px) {.collapsible-content__header{margin-bottom: 4.5rem;}}

@@ -1,111 +1,169 @@
-{{ 'component-accordion.css' | asset_url | stylesheet_tag }}
-{{ 'collapsible-content.css' | asset_url | stylesheet_tag }}
-
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
+{% liquid
+  assign enable_section = false
+  for block in section.blocks
+    assign content = block.settings.row_content | append: block.settings.page.content
+    if content != blank
+      assign enable_section = true
+      break
+    endif
+  endfor
+%}
+{% if enable_section %}
+  {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+  {{ 'collapsible-content.css' | asset_url | stylesheet_tag }}
+  {{ 'collapse-content.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'collapse-content.js' | asset_url }}" defer="defer"></script>
+  {%- style -%}
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
-  }
-{%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
-    <div class="collapsible-content__wrapper section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
-      <div class="{% if section.settings.image == blank %}collapsible-content-wrapper-narrow{% else %}page-width{% endif %}">
-        <div
-          class="collapsible-content__header{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          style="text-align: {{ section.settings.heading_alignment }};"
-        >
-          {%- if section.settings.caption != blank -%}
-            <p class="caption-with-letter-spacing">
-              {{ section.settings.caption | escape }}
-            </p>
-          {% endif %}
-          {%- if section.settings.heading != blank -%}
-            <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
-              {{ section.settings.heading }}
-            </h2>
-          {%- else -%}
-            <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
-          {% endif %}
-        </div>
-        <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          {%- if section.settings.image != blank -%}
-            <div class="grid__item collapsible-content__grid-item">
-              <div
-                class="collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
-                {% if section.settings.image_ratio == 'adapt' %}
-                  style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
-                {% endif %}
-              >
-                {%- liquid
-                  assign padding_multiplier = 1
-                  if section.settings.layout == 'section'
-                    assign padding_multiplier = 2
-                  endif
-                  assign desktop_tablet_padding = 100 | times: padding_multiplier | append: 'px'
-                  assign mobile_padding = 30 | times: padding_multiplier | append: 'px'
-                -%}
-                {%- capture sizes -%}
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+
+  <div class="color-{{ section.settings.color_scheme }} gradient">
+    <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
+      <div class="collapsible-content__wrapper section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
+        <div class="{% if section.settings.image == blank %}collapsible-content-wrapper-narrow{% else %}page-width{% endif %}">
+          <div
+            class="{%- if section.settings.button_label and section.settings.button_link -%}collapsible-content__header-grid {% endif %} collapsible-content__header{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            style="text-align: {{ section.settings.heading_alignment }};"
+          >
+            {%- if section.settings.caption != blank -%}
+              <p class="caption-with-letter-spacing">
+                {{ section.settings.caption | escape }}
+              </p>
+            {% endif %}
+            {%- if section.settings.heading != blank -%}
+              <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }} center">
+                {{ section.settings.heading }}
+              </h2>
+            {%- else -%}
+              <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
+            {% endif %}
+            {%- if section.settings.text != blank -%}
+              <p class="rte">{{ section.settings.text | escape }}</p>
+            {% endif %}
+            {%- if section.settings.button_label and section.settings.button_link -%}
+              <div class="medium-hide small-hide {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                <a
+                  href="{{ section.settings.button_link }}"
+                  class="link underlined-link uppercase underlined-link-st-2 f-12 uppercase"
+                  aria-label="READ FAQ’s"
+                >
+                  {{ section.settings.button_label }}
+                </a>
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {%- if section.settings.image != blank -%}
+              <div class="grid__item collapsible-content__grid-item">
+                <div
+                  class="collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
+                  {% if section.settings.image_ratio == 'adapt' %}
+                    style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+                  {% endif %}
+                >
+                  {%- liquid
+                    assign padding_multiplier = 1
+                    if section.settings.layout == 'section'
+                      assign padding_multiplier = 2
+                    endif
+                    assign desktop_tablet_padding = 100 | times: padding_multiplier | append: 'px'
+                    assign mobile_padding = 30 | times: padding_multiplier | append: 'px'
+                  -%}
+                  {%- capture sizes -%}
                   (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ desktop_tablet_padding }}) / 2),
                   (min-width: 750px) calc((100vw - {{ desktop_tablet_padding }}) / 2),
                   calc(100vw - {{ mobile_padding }})
                 {%- endcapture -%}
-                {{
-                  section.settings.image
-                  | image_url: width: 3200
-                  | image_tag:
-                    sizes: sizes,
-                    widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200'
-                }}
+                  {{
+                    section.settings.image
+                    | image_url: width: 3200
+                    | image_tag:
+                      sizes: sizes,
+                      widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200'
+                  }}
+                </div>
               </div>
-            </div>
-          {% endif %}
-          <div class="grid__item">
-            {%- for block in section.blocks -%}
-              <div
-                class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                <details
-                  id="Details-{{ block.id }}-{{ section.id }}"
-                  {% if section.settings.open_first_collapsible_row and forloop.first %}
-                    open
-                  {% endif %}
-                >
-                  <summary id="Summary-{{ block.id }}-{{ section.id }}">
-                    {% render 'icon-accordion', icon: block.settings.icon %}
-                    <h3 class="accordion__title inline-richtext h4">
-                      {{ block.settings.heading | default: block.settings.page.title | escape }}
-                    </h3>
-                    {{- 'icon-caret.svg' | inline_asset_content -}}
-                  </summary>
+            {% endif %}
+            <div class="grid__item">
+              {%- for block in section.blocks -%}
+                {%- liquid
+                  if section.settings.open_first_collapsible_row and forloop.first
+                    assign first_active = 'active'
+                  else
+                    assign first_active = ''
+                  endif
+                  assign content = block.settings.row_content | append: block.settings.page.content
+                -%}
+                {% if block.settings.heading != blank %}
+                  {%- render 'collapsible',
+                    block: block,
+                    first_active: first_active,
+                    heading_size: 'f-16 uppercase f-body b-500',
+                    label: block.settings.heading,
+                    content: content,
+                    content_font_size: 'f-14',
+                    block_attributes: block.shopify_attributes
+                  -%}
+                {% endif %}
+                {% comment %}
                   <div
-                    class="accordion__content rte"
-                    id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
-                    role="region"
-                    aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                    class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
+                    {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.row_content }}
-                    {{ block.settings.page.content }}
+                    <details
+                      id="Details-{{ block.id }}-{{ section.id }}"
+                      {% if section.settings.open_first_collapsible_row and forloop.first %}
+                        open
+                      {% endif %}
+                    >
+                      <summary id="Summary-{{ block.id }}-{{ section.id }}">
+                        {% render 'icon-accordion', icon: block.settings.icon %}
+                        <h3 class="accordion__title inline-richtext h4">
+                          {{ block.settings.heading | default: block.settings.page.title | escape }}
+                        </h3>
+                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                      </summary>
+                      <div
+                        class="accordion__content rte"
+                        id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+                        role="region"
+                        aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                      >
+                        {{ block.settings.row_content }}
+                        {{ block.settings.page.content }}
+                      </div>
+                    </details>
                   </div>
-                </details>
-              </div>
-            {%- endfor -%}
+                {% endcomment %}
+              {%- endfor -%}
+            </div>
           </div>
+          {%- if section.settings.button_label -%}
+            <div class="more-information-button large-up-hide {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              <a
+                href="{{ section.settings.button_link }}"
+                class="link underlined-link uppercase underlined-link-st-2 f-12 uppercase"
+                aria-label="READ FAQ’s"
+              >
+                {{ section.settings.button_label }}
+              </a>
+            </div>
+          {%- endif -%}
         </div>
       </div>
     </div>
   </div>
-</div>
-
+{% endif %}
 {% schema %}
 {
   "name": "t:sections.collapsible_content.name",
@@ -131,7 +189,7 @@
       "id": "heading_size",
       "options": [
         {
-          "value": "h2",
+          "value": "h2-l",
           "label": "t:sections.all.heading_size.options__1.label"
         },
         {
@@ -175,9 +233,23 @@
       "default": "center"
     },
     {
-      "type": "header",
-      "content": "t:sections.collapsible_content.settings.layout_header.content"
-    },    
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "Find answers to your most common questions about our products, shipping, returns, sizing, and more."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "default": "t:sections.image-banner.blocks.buttons.settings.button_label_1.default",
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+      "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+    },
     {
       "type": "select",
       "id": "layout",
@@ -200,15 +272,16 @@
     },
     {
       "type": "color_scheme",
-      "id": "container_color_scheme",
-      "label": "t:sections.collapsible_content.settings.container_color_scheme.label",
-      "default": "scheme-2"
-    },    
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
     {
       "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.collapsible_content.settings.section_color_scheme.label",
-      "default": "scheme-1"
+      "id": "container_color_scheme",
+      "label": "t:sections.collapsible_content.settings.container_color_scheme.label",
+      "info": "t:sections.collapsible_content.settings.container_color_scheme.info",
+      "default": "scheme-2"
     },
     {
       "type": "checkbox",
@@ -259,7 +332,8 @@
         }
       ],
       "default": "image_second",
-      "label": "t:sections.collapsible_content.settings.desktop_layout.label"
+      "label": "t:sections.collapsible_content.settings.desktop_layout.label",
+      "info": "t:sections.collapsible_content.settings.desktop_layout.info"
     },
     {
       "type": "header",
@@ -295,7 +369,8 @@
           "type": "text",
           "id": "heading",
           "default": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.default",
-          "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.label"
+          "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.label",
+          "info": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.info"
         },
         {
           "type": "select",
