@@ -433,7 +433,6 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Group_1000005049.png",
-        "image_bgd": "shopify://shop_images/vecteezy_green-tropical-branch-palm-leaf-with-shadow-on-transparent_15280864_999f3ad1-6cab-4061-be24-abb379c7377f.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
