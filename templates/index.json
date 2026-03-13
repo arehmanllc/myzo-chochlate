@@ -433,7 +433,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Group_1000005049.png",
-        "image_bgd": "shopify://shop_images/image_5145.png",
+        "image_bgd": "shopify://shop_images/Group_1000005232.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
