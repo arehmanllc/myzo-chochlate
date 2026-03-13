@@ -31,7 +31,8 @@
 
 
 .collapse-content * {
-  color: rgba(var(--color-foreground), 1);
+  /* color: rgba(var(--color-foreground), 1); */
+  color: #8A8D92;
 }
 
 .collapse-content {
