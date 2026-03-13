@@ -58,7 +58,7 @@
           "settings": {
             "heading": "Ingradients:",
             "icon": "check_mark",
-            "content": "<p>Provided from Client</p>",
+            "content": "{{ product.metafields.custom.product_ingredients | metafield_tag }}",
             "page": ""
           }
         },
