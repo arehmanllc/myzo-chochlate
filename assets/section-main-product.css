@@ -1619,7 +1619,7 @@ a.product__text {
 .product_dropdown collapse-content .collapse-content *,
 .product__description collapse-content .collapse-content *{text-align: left !important;}
 .product_dropdown collapse-content .collapse-content,
-.product__description collapse-content .collapse-content {font-size: 1.3rem;}
+.product__description collapse-content .collapse-content {font-size: 1.6rem;}
 .product__description collapse-content .collapse-content h1,
 .product__description collapse-content .collapse-content h2,
 .product__description collapse-content .collapse-content h3,
