@@ -3,7 +3,7 @@
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   color: rgb(var(--color-foreground));
 }
-.price__container{
+.collection .price__container{
   width: 100%;
 }
 .price>* {
