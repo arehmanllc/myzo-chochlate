@@ -56,7 +56,7 @@
         "collapsible_tab_9KXH6J": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Ingradients:",
+            "heading": "Ingredients",
             "icon": "check_mark",
             "content": "{{ product.metafields.custom.product_ingredients | metafield_tag }}",
             "page": ""
