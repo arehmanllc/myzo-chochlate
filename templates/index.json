@@ -433,7 +433,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Group_1000005049.png",
-        "image_bgd": "shopify://shop_images/choco-1_960x_720x_965fd695-93ae-4f9e-86eb-8038ab8297ca.webp",
+        "image_bgd": "shopify://shop_images/image_5144.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
