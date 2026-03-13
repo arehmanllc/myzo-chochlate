@@ -24,10 +24,10 @@
   }
 }
 
-.collection-list__item:only-child {
+/* .collection-list__item:only-child {
   max-width: 100%;
   width: 100%;
-}
+} */
 
 @media screen and (max-width: 749px) {
   .slider.collection-list--1-items {
