@@ -38,7 +38,13 @@
           "type": "text",
           "settings": {
             "heading": "Contact Us",
-            "subtext": ""
+            "subtext": "",
+            "phone_image": "shopify://shop_images/Vector_4.png",
+            "phone_nmbr": "<p><a href=\"tel:+1 (929) 361-0404\" target=\"_blank\" title=\"tel:+1 (929) 361-0404\">+1 (929) 361-0404</a></p>",
+            "email_image": "shopify://shop_images/Union_1_23b1df91-9497-4698-9d0a-46449044d413.png",
+            "email": "<p>team@myzochocolate.com</p>",
+            "location_image": "shopify://shop_images/Vector_5.png",
+            "location_id": "<p>2701 Biscayne Boulevard, Miami, FL, United States, 33137</p>"
           }
         }
       },
