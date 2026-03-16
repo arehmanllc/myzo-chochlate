@@ -188,7 +188,7 @@
 }
 
 .footer-block__heading {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin-top: 0;
   font-size: calc(var(--font-heading-scale) * 1.6rem);
   color: #ffffff;
