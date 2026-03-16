@@ -162,7 +162,7 @@
 }
 .footer .contact-block p{
   margin: 0;
-  line-height: 1;
+  line-height: 23px;
 }
 .footer .contact-block .email-block{
   display: flex;
