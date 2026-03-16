@@ -35,25 +35,41 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "heading_Vbtbth": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transparency Snapshot:",
+            "heading_size": "h1"
+          }
+        },
+        "text_D7RKbA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Origin:</strong> Matina, Costa Rica<br/><strong>Varieties:</strong> Matina variety (unique Costa Rican Criollo & Trinitario hybrid)<br/><strong>Trade Model:</strong> Single-estate direct trade<br/><strong>Processing:</strong> Bean-to-bar in Lutsk, Ukraine<br/><strong>Additives:</strong> None<br/><strong>Production Capacity:</strong> ~1,000 bars/week</p>"
+          }
         }
       },
       "block_order": [
         "heading_B8qAhQ",
         "text_BPEWba",
-        "button_CWaJWw"
+        "button_CWaJWw",
+        "heading_Vbtbth",
+        "text_D7RKbA"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 12,
         "padding_bottom": 12
