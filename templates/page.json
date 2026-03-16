@@ -57,6 +57,7 @@
         "heading_Vbtbth",
         "text_D7RKbA"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -312,6 +313,7 @@
         "row_BDyUF7",
         "row_BqqEn9"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
