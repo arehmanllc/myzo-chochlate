@@ -36,7 +36,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Buy Now",
-            "button_link_1": "shopify://blogs/news/a-chocolate-fiesta-in-lutsk-myzo-craft-revival",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -184,7 +184,7 @@
         "button_Ltwy6V": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Now",
+            "button_label": "About us",
             "button_link": "shopify://pages/about-us",
             "button_style_secondary": false
           }
