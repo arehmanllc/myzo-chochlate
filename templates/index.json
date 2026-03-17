@@ -418,7 +418,7 @@
         "button_BGJ8m7": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Now",
+            "button_label": "Visit FAQ",
             "button_link": "shopify://pages/myzo-faq",
             "button_style_secondary": false
           }
