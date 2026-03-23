@@ -127,7 +127,7 @@
           "type": "button",
           "settings": {
             "button_label": "Benefits of Chocolate",
-            "button_link": "shopify://collections",
+            "button_link": "shopify://pages/benefits-of-dark-chocolate",
             "button_style_secondary": false
           }
         }
