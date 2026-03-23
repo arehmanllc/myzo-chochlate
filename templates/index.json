@@ -36,7 +36,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Buy Now",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify://collections/chocolate-bars",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -606,7 +606,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "shopify://pages/myzo-faq",
+            "button_link": "shopify://products/myzo-6-bar-bean-giftbox",
             "button_style_secondary": false
           }
         }
