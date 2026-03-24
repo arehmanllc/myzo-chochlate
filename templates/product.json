@@ -15,13 +15,20 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "<p>{{ product.vendor }}</p>",
             "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
           "settings": {}
+        },
+        "text_eC9ewQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.bundles_includes | metafield_tag }}</p>",
+            "text_style": "body"
+          }
         },
         "judge_me_reviews_preview_badge_myRT7f": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -96,6 +103,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_eC9ewQ",
         "judge_me_reviews_preview_badge_myRT7f",
         "price",
         "variant_picker",
