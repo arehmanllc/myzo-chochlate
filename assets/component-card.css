@@ -426,6 +426,10 @@
 .card--standard > .card__content .card__information {
   padding-left: 0;
   padding-right: 0;
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        align-items: flex-start;
 }
 
 .card--card.card--media .card__inner .card__information,

@@ -36,7 +36,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Buy Now",
-            "button_link_1": "shopify://blogs/news/a-chocolate-fiesta-in-lutsk-myzo-craft-revival",
+            "button_link_1": "shopify://collections/chocolate-bars",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -127,7 +127,7 @@
           "type": "button",
           "settings": {
             "button_label": "Benefits of Chocolate",
-            "button_link": "shopify://collections",
+            "button_link": "shopify://pages/benefits-of-dark-chocolate",
             "button_style_secondary": false
           }
         }
@@ -184,7 +184,7 @@
         "button_Ltwy6V": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Now",
+            "button_label": "About us",
             "button_link": "shopify://pages/about-us",
             "button_style_secondary": false
           }
@@ -253,7 +253,7 @@
           "settings": {
             "video": "shopify://files/videos/Amsterdam Cocoa Week   A few days surrounded by farmers, makers, and people who care deeply about cacao — its future, its quality, and the standards behind it.  Moments like this push us to keep raising the bar in craft.mp4",
             "enable_video_looping": true,
-            "product": "raspberry"
+            "product": "raspberry-dark-chocolate-bar"
           }
         },
         "ugc_video_ABPYzd": {
@@ -381,7 +381,7 @@
         "columns_desktop": 6,
         "columns_mobile": "2",
         "heading_size": "f-16",
-        "text_size": "f-14",
+        "text_size": "f-13",
         "padding_top": 36,
         "padding_top_mobile": 40,
         "padding_bottom": 36,
@@ -418,7 +418,7 @@
         "button_BGJ8m7": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Now",
+            "button_label": "Visit FAQ",
             "button_link": "shopify://pages/myzo-faq",
             "button_style_secondary": false
           }
@@ -433,7 +433,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Group_1000005049.png",
-        "image_bgd": "shopify://shop_images/vecteezy_green-tropical-branch-palm-leaf-with-shadow-on-transparent_15280864_999f3ad1-6cab-4061-be24-abb379c7377f.png",
+        "image_bgd": "shopify://shop_images/Group_1000005232.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -479,7 +479,7 @@
           "type": "button",
           "settings": {
             "button_label": "About Us",
-            "button_link": "shopify://collections",
+            "button_link": "shopify://pages/about-us",
             "button_style_secondary": false
           }
         }
@@ -606,7 +606,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "shopify://pages/myzo-faq",
+            "button_link": "shopify://products/myzo-6-bar-bean-giftbox",
             "button_style_secondary": false
           }
         }
@@ -620,7 +620,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Group_1000005126.png",
-        "image_bgd": "shopify://shop_images/Untitled_design_1.png",
+        "image_bgd": "shopify://shop_images/Group_1000005232.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -997,7 +997,7 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "text": "Find answers to your most common questions about our products, shipping, returns, sizing, and more.",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "layout": "none",
         "color_scheme": "",
